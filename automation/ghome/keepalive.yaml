@@ -2,7 +2,6 @@
   trigger:
     platform: time
     minutes: '/2'
-    seconds: 00
   condition:
     condition: or
     conditions:
@@ -22,7 +21,6 @@
   trigger:
     platform: time
     minutes: '/2'
-    seconds: 00
   condition:
     condition: or
     conditions:
