@@ -29,6 +29,12 @@ discovery:
 #tts:
 #  - platform: google_translate
 
+# Toon
+toon:
+  client_id: !secret toon_id
+  client_secret: !secret toon_secret
+
+
 group: !include_dir_merge_list group/
 automation: !include_dir_merge_list automation/
 script: !include_dir_merge_list script/
@@ -37,3 +43,4 @@ sensor: !include_dir_merge_list sensor/
 switch: !include_dir_merge_list switch/
 #customize: !include_dir_merge_list customize/
 tts: !include_dir_merge_list tts/
+
