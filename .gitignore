@@ -13,6 +13,7 @@
 .google.token
 
 # Ignore
+*.mp3
 ip_bans.yaml
 known_devices.yaml
 OZW_log.txt
@@ -23,4 +24,5 @@ pyozw.sqlite
 secrets.yaml
 zwcfg_0xdb2c6d76.xml
 zwscene.xml
-*.txt
+OZW_Log.txt
+OZW_log.txt
