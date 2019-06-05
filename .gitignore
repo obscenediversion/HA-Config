@@ -1,0 +1,26 @@
+# All
+#*
+
+# Whitelist
+!*.yaml
+!.gitignore
+!*.md
+!placeholder.txt
+
+# Ignore folders.
+.storage
+.cloud
+.google.token
+
+# Ignore
+*.mp3
+ip_bans.yaml
+known_devices.yaml
+OZW_log.txt
+home-assistant_v2.db
+home-assistant.log
+options.xml
+pyozw.sqlite
+secrets.yaml
+zwcfg_0xdb2c6d76.xml
+zwscene.xml
