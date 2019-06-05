@@ -12,7 +12,7 @@ build_ci:
             message: >
               Travis build failed! {{ "\uD83E\uDD2C" }}
             data:
-              url: !secret travisci_url
+              url: https://travis-ci.com/obscenediversion/HA-Config
 
     - alias: System Travis Build Passed
       trigger:
@@ -26,17 +26,18 @@ build_ci:
             message: >
               Travis build passed! {{ "\uD83D\uDC4D" }}
             data:
-              url: !secret travisci_url
+              url: https://travis-ci.com/obscenediversion/HA-Config
         - service: hassio.addon_start
           data:
             addon: core_git_pull
 
   sensor:
     - platform: rest
-      resource: !secret traviscib_url
+      resource: https://api.travis-ci.org/repos/obscenediversion/HA-Config/builds
       headers:
         Accept: application/vnd.travis-ci.2+json
       value_template: "{{ value_json.builds[0].state }}"
       name: "Travis Build Status"
-     - platform: travisci
-       api_key: !secret travisci_api
+    # - platform: travisci
+    #   api_key:
+
