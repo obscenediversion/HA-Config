@@ -3,12 +3,26 @@
   - entity_id: sensor.obscenediversion_ha_config_state
     from: started
     platform: state
-    to: failes
+    to: failed
   condition: []
   action:
     service: mqtt.publish
     data:
       topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
-      payload: "Travis CI build failed!"
+      payload: "Travis build failed!"
+- alias: Travis CI Passed Notification
+  trigger:
+  - entity_id: sensor.obscenediversion_ha_config_state
+    from: started
+    platform: state
+    to: passed
+  condition: []
+  action:
+    service: mqtt.publish
+    data:
+      topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
+      payload: "Travis build passed!"
+
+    
 
     
