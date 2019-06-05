@@ -1,0 +1,3 @@
+toon:
+  client_id: !secret toon_id
+  client_secret: !secret toon_secret
