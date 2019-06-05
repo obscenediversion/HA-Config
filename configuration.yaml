@@ -12,7 +12,7 @@ homeassistant:
   time_zone: Europe/Amsterdam
   # Customization file
   customize: !include customize.yaml
-  packages: !include_dir_merge_named package/
+  packages: !include_dir_merge_list package/
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
