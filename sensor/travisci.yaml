@@ -1,5 +1,6 @@
-- platform: travisci
-  api_key: !secret travisci_api
-  monitored_conditions:
-    - last_build_state
-    - last_build_duration
+  - platform: rest
+    resource: https://api.travis-ci.com/obscenediversion/HA-Config/builds
+    headers:
+      Accept: application/vnd.travis-ci.2+json
+    value_template: "{{ value_json.builds[0].state }}"
+    name: "Travis Build Status"
