@@ -1,0 +1,6 @@
+  - platform: rpi_gpio
+    ports:
+      4: Relay one
+      6: Relay two
+      13: Relay three
+      19: Relay four
