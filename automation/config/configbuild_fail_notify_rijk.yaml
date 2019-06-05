@@ -1,0 +1,12 @@
+- alias: 'Ocelotte Config Build Failed Notification'
+  trigger:
+  - entity_id: sensor.obscenediversion_ha_config_state
+    from: started
+    platform: state
+    to: failed
+  condition: []
+  action:
+    service: mqtt.publish
+    data:
+      topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
+      payload: "Ocelotte config build failed!"

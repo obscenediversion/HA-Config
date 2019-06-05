@@ -33,7 +33,7 @@ sun:
  # client_secret: !secret toon_secret
 
 group: !include_dir_merge_list group/
-automation: !include_dir_merge_list automation/
+automation: !include_dir_list automation/
 script: !include_dir_merge_list script/
 zone:  !include_dir_merge_list zone/
 sensor: !include_dir_merge_list sensor/
