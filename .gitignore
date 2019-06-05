@@ -24,5 +24,4 @@ pyozw.sqlite
 secrets.yaml
 zwcfg_0xdb2c6d76.xml
 zwscene.xml
-OZW_Log.txt
-OZW_Log.txt
+*.txt
