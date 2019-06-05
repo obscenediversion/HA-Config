@@ -9,7 +9,7 @@
     service: mqtt.publish
     data:
       topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
-      payload: "Travis build failed!"
+      payload: "Ocelotte config build failed!"
 - alias: Travis CI Passed Notification
   trigger:
   - entity_id: sensor.obscenediversion_ha_config_state
@@ -21,7 +21,7 @@
     service: mqtt.publish
     data:
       topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
-      payload: "Travis build passed!"
+      payload: "Ocelotte config build passed!"
 - alias: 'Travis build passed announce '
   trigger:
   - entity_id: sensor.obscenediversion_ha_config_state
