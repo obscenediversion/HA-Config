@@ -1,7 +1,7 @@
 - alias: Keep Google Home Alive (BR)
   trigger:
-    platform: time
-    minutes: '/2'
+    platform: time_pattern
+    minutes: /2
   condition:
     condition: or
     conditions:
@@ -19,8 +19,8 @@
       media_content_type: music
 - alias: Keep Google Home Alive (LR)
   trigger:
-    platform: time
-    minutes: '/2'
+    platform: time_pattern
+    minutes: /2
   condition:
     condition: or
     conditions:
