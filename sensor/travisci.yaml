@@ -1,3 +1,5 @@
+  - platform: travisci
+    api_key: !secret travisci_api
   - platform: rest
     resource: https://api.travis-ci.com/obscenediversion/HA-Config/builds
     headers:
