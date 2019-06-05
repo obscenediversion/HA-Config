@@ -1,0 +1,10 @@
+- alias: 'Auto Pull Ocelotte Config on Pass'
+  trigger:
+  - entity_id: sensor.obscenediversion_ha_config_state
+    from: started
+    platform: state
+    to: passed
+  condition: []
+   - service: hassio.addon_start
+       data:
+         addon: core_git_pull
