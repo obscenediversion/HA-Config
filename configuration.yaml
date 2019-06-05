@@ -24,6 +24,7 @@ http:
  
 # Discover some devices automatically
 discovery:
+mobile_app:
 
 # Toon
 #toon:
