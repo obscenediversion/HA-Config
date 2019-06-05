@@ -16,7 +16,7 @@
 *.mp3
 ip_bans.yaml
 known_devices.yaml
-OZW_log.txt
+OZW_Log.txt
 home-assistant_v2.db
 home-assistant.log
 options.xml
