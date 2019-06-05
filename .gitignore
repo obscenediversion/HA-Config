@@ -16,7 +16,7 @@
 *.mp3
 ip_bans.yaml
 known_devices.yaml
-OZW_log.txt
+*.txt
 home-assistant_v2.db
 home-assistant.log
 options.xml
@@ -24,3 +24,4 @@ pyozw.sqlite
 secrets.yaml
 zwcfg_0xdb2c6d76.xml
 zwscene.xml
+OZW_Log.txt
