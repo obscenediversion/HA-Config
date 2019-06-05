@@ -13,7 +13,6 @@
 .google.token
 
 # Ignore
-*.mp3
 ip_bans.yaml
 known_devices.yaml
 OZW_log.txt

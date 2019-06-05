@@ -1,0 +1,40 @@
+- alias: Keep Google Home Alive (BR)
+  trigger:
+    platform: time
+    minutes: '/2'
+    seconds: 00
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: media_player.bathroom_speaker
+        state: 'off'
+      - condition: state
+        entity_id: media_player.bathroom_speaker
+        state: 'idle'
+  action:
+    service: media_player.play_media
+    entity_id: media_player.bathroom_speaker
+    data:
+      media_content_id: https://hassio.local:8123/local/1sec.mp3
+      media_content_type: music
+- alias: Keep Google Home Alive (LR)
+  trigger:
+    platform: time
+    minutes: '/2'
+    seconds: 00
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: media_player.living_room_speaker
+        state: 'off'
+      - condition: state
+        entity_id: media_player.living_room_speaker
+        state: 'idle'
+  action:
+    service: media_player.play_media
+    entity_id: media_player.living_room_speaker
+    data:
+      media_content_id: https://hassio.local:8123/local/1sec.mp3
+      media_content_type: music
