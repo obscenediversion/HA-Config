@@ -1,0 +1,6 @@
+- platform: afvalwijzer
+  url: 'mijnafvalwijzer.nl'
+  postcode: !secret postcode
+  huisnummer: !secret huisnummer
+  toevoeging: !secret toevoeging
+  label_geen: 'Geen'
