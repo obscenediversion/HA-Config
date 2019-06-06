@@ -24,7 +24,6 @@ http:
  
 # Discover some devices automatically
 discovery:
-mobile_app:
 sun:
 logger:
 
@@ -33,10 +32,10 @@ logger:
  # client_id: !secret toon_id
  # client_secret: !secret toon_secret
  
- # HACS
+# HACS
  
-#hacs:
-#  token: !secret github_token_hacs
+hacs:
+  token: !secret github_token_hacs
 
 group: !include_dir_merge_list group/
 automation: !include_dir_merge_list automation/
