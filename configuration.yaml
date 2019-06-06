@@ -34,7 +34,7 @@ sun:
  
  # HACS
  
- hacs:
+hacs:
   token: !secret github_token_hacs
 
 group: !include_dir_merge_list group/
