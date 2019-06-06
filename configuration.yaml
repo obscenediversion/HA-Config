@@ -31,6 +31,11 @@ sun:
 #toon:
  # client_id: !secret toon_id
  # client_secret: !secret toon_secret
+ 
+ # HACS
+ 
+ hacs:
+  token: !secret github_token_hacs
 
 group: !include_dir_merge_list group/
 automation: !include_dir_merge_list automation/
