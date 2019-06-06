@@ -1,430 +1,449 @@
-2019-06-06 06:38:57.145 Always, OpenZwave Version 1.4.3440 Starting Up
-2019-06-06 06:39:04.374 Info, Setting Up Provided Network Key for Secure Communications
-2019-06-06 06:39:04.375 Info, mgr,     Added driver for controller /dev/ttyACM0
-2019-06-06 06:39:04.375 Info,   Opening controller /dev/ttyACM0
-2019-06-06 06:39:04.375 Info, Trying to open serial port /dev/ttyACM0 (attempt 1)
-2019-06-06 06:39:04.376 Info, Serial port /dev/ttyACM0 opened (attempt 1)
-2019-06-06 06:39:04.376 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
-2019-06-06 06:39:04.376 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
-2019-06-06 06:39:04.376 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
-2019-06-06 06:39:04.376 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
-2019-06-06 06:39:04.376 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
-2019-06-06 06:39:04.376 Detail, 
-2019-06-06 06:39:04.376 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x15) - FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
-2019-06-06 06:39:04.379 Detail, contrlr,   Received: 0x01, 0x10, 0x01, 0x15, 0x5a, 0x2d, 0x57, 0x61, 0x76, 0x65, 0x20, 0x34, 0x2e, 0x35, 0x34, 0x00, 0x01, 0x93
-2019-06-06 06:39:04.379 Detail, 
-2019-06-06 06:39:04.379 Info, contrlr, Received reply to FUNC_ID_ZW_GET_VERSION:
-2019-06-06 06:39:04.379 Info, contrlr,     Static Controller library, version Z-Wave 4.54
-2019-06-06 06:39:04.379 Detail, Node045,   Expected reply was received
-2019-06-06 06:39:04.379 Detail, Node045,   Message transaction complete
-2019-06-06 06:39:04.379 Detail, 
-2019-06-06 06:39:04.379 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.379 Detail, 
-2019-06-06 06:39:04.379 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x20) - FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
-2019-06-06 06:39:04.384 Detail, contrlr,   Received: 0x01, 0x08, 0x01, 0x20, 0xdb, 0x2c, 0x6d, 0x76, 0x01, 0x3b
-2019-06-06 06:39:04.384 Detail, 
-2019-06-06 06:39:04.384 Info, contrlr, Received reply to FUNC_ID_ZW_MEMORY_GET_ID. Home ID = 0xdb2c6d76.  Our node ID = 1
-2019-06-06 06:39:04.384 Detail, Node044,   Expected reply was received
-2019-06-06 06:39:04.384 Detail, Node044,   Message transaction complete
-2019-06-06 06:39:04.384 Detail, 
-2019-06-06 06:39:04.384 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.384 Detail, 
-2019-06-06 06:39:04.384 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x05) - FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
-2019-06-06 06:39:04.385 Detail, contrlr,   Received: 0x01, 0x04, 0x01, 0x05, 0x08, 0xf7
-2019-06-06 06:39:04.385 Detail, 
-2019-06-06 06:39:04.386 Info, contrlr, Received reply to FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES:
-2019-06-06 06:39:04.386 Info, contrlr,     There is no SUC ID Server (SIS) in this network.
-2019-06-06 06:39:04.386 Info, contrlr,     The PC controller is a primary controller.
-2019-06-06 06:39:04.386 Detail, Node247,   Expected reply was received
-2019-06-06 06:39:04.386 Detail, Node247,   Message transaction complete
-2019-06-06 06:39:04.386 Detail, 
-2019-06-06 06:39:04.386 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.386 Detail, 
-2019-06-06 06:39:04.386 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x07) - FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
-2019-06-06 06:39:04.390 Detail, contrlr,   Received: 0x01, 0x2b, 0x01, 0x07, 0x01, 0x01, 0x00, 0x86, 0x00, 0x01, 0x00, 0x5a, 0xfe, 0x81, 0xff, 0x88, 0x4f, 0x1f, 0x00, 0x00, 0xfb, 0x9f, 0x7d, 0xa0, 0x67, 0x00, 0x00, 0x80, 0x00, 0x80, 0x86, 0x00, 0x00, 0x00, 0xe8, 0x73, 0x00, 0x00, 0x0e, 0x00, 0x00, 0x60, 0x00, 0x00, 0xfa
-2019-06-06 06:39:04.390 Detail, 
-2019-06-06 06:39:04.390 Info, contrlr,  Received reply to FUNC_ID_SERIAL_API_GET_CAPABILITIES
-2019-06-06 06:39:04.390 Info, contrlr,     Serial API Version:   1.1
-2019-06-06 06:39:04.390 Info, contrlr,     Manufacturer ID:      0x0086
-2019-06-06 06:39:04.390 Info, contrlr,     Product Type:         0x0001
-2019-06-06 06:39:04.390 Info, contrlr,     Product ID:           0x005a
-2019-06-06 06:39:04.390 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_RANDOM: 0x01, 0x04, 0x00, 0x1c, 0x20, 0xc7
-2019-06-06 06:39:04.390 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_INIT_DATA: 0x01, 0x03, 0x00, 0x02, 0xfe
-2019-06-06 06:39:04.390 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_SET_TIMEOUTS: 0x01, 0x05, 0x00, 0x06, 0x64, 0x0f, 0x97
-2019-06-06 06:39:04.390 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_APPL_NODE_INFORMATION: 0x01, 0x07, 0x00, 0x03, 0x01, 0x02, 0x01, 0x00, 0xf9
-2019-06-06 06:39:04.390 Detail, Node001,   Expected reply was received
-2019-06-06 06:39:04.390 Detail, Node001,   Message transaction complete
-2019-06-06 06:39:04.390 Detail, 
-2019-06-06 06:39:04.390 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.390 Detail, 
-2019-06-06 06:39:04.390 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x56) - FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
-2019-06-06 06:39:04.392 Detail, contrlr,   Received: 0x01, 0x04, 0x01, 0x56, 0x00, 0xac
-2019-06-06 06:39:04.392 Detail, 
-2019-06-06 06:39:04.392 Info, contrlr, Received reply to GET_SUC_NODE_ID.  Node ID = 0
-2019-06-06 06:39:04.392 Info, Controller Does not Support SUC - Cannot Setup Controller as SUC Node
-2019-06-06 06:39:04.392 Detail, Node172,   Expected reply was received
-2019-06-06 06:39:04.392 Detail, Node172,   Message transaction complete
-2019-06-06 06:39:04.392 Detail, 
-2019-06-06 06:39:04.392 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.393 Detail, 
-2019-06-06 06:39:04.393 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x1c) - FUNC_ID_ZW_GET_RANDOM: 0x01, 0x04, 0x00, 0x1c, 0x20, 0xc7
-2019-06-06 06:39:04.448 Detail, contrlr,   Received: 0x01, 0x25, 0x01, 0x1c, 0x01, 0x20, 0xb1, 0x85, 0x4c, 0xe1, 0x29, 0xe1, 0x35, 0xd2, 0x19, 0x5d, 0x26, 0xe2, 0x3d, 0x2b, 0x4c, 0xf3, 0xbe, 0x3c, 0x8e, 0xde, 0x97, 0x0b, 0xeb, 0x18, 0x09, 0x88, 0x3c, 0x84, 0xe6, 0xc8, 0xe2, 0xa1, 0x90
-2019-06-06 06:39:04.448 Detail, 
-2019-06-06 06:39:04.448 Info, contrlr, Received reply to FUNC_ID_ZW_GET_RANDOM: true
-2019-06-06 06:39:04.449 Detail, Node032,   Expected reply was received
-2019-06-06 06:39:04.449 Detail, Node032,   Message transaction complete
-2019-06-06 06:39:04.449 Detail, 
-2019-06-06 06:39:04.449 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.449 Detail, 
-2019-06-06 06:39:04.449 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x02) - FUNC_ID_SERIAL_API_GET_INIT_DATA: 0x01, 0x03, 0x00, 0x02, 0xfe
-2019-06-06 06:39:04.553 Detail, contrlr,   Received: 0x01, 0x25, 0x01, 0x02, 0x05, 0x00, 0x1d, 0x3b, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0xff
-2019-06-06 06:39:04.553 Detail, 
-2019-06-06 06:39:04.553 Info, mgr,     Driver with Home ID of 0xdb2c6d76 is now ready.
-2019-06-06 06:39:04.553 Info, 
-2019-06-06 06:39:04.568 Detail, Node002, Queuing (Controller) Delete All Return Routes
-2019-06-06 06:39:04.568 Detail, Node002, Queuing (Controller) Assign Return Route
-2019-06-06 06:39:04.569 Detail, Node004, Queuing (Controller) Delete All Return Routes
-2019-06-06 06:39:04.569 Detail, Node004, Queuing (Controller) Assign Return Route
-2019-06-06 06:39:04.570 Detail, Node005, Queuing (Controller) Delete All Return Routes
-2019-06-06 06:39:04.570 Detail, Node005, Queuing (Controller) Assign Return Route
-2019-06-06 06:39:04.571 Detail, Node006, Queuing (Controller) Delete All Return Routes
-2019-06-06 06:39:04.571 Detail, Node006, Queuing (Controller) Assign Return Route
-2019-06-06 06:39:04.574 Info, contrlr, Received reply to FUNC_ID_SERIAL_API_GET_INIT_DATA:
-2019-06-06 06:39:04.574 Info, contrlr,     Node 001 - Known
-2019-06-06 06:39:04.574 Detail, Node001, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
-2019-06-06 06:39:04.575 Detail, Node001, QueryStage_CacheLoad
-2019-06-06 06:39:04.575 Info, Node001, Node Identity Codes: 0086:0001:005a
-2019-06-06 06:39:04.575 Detail, Node001, QueryStage_Associations
-2019-06-06 06:39:04.575 Detail, Node001, QueryStage_Neighbors
-2019-06-06 06:39:04.575 Detail, contrlr, Requesting routing info (neighbor list) for Node 1
-2019-06-06 06:39:04.575 Detail, Node001, Queuing (Command) Get Routing Info (Node=1): 0x01, 0x07, 0x00, 0x80, 0x01, 0x00, 0x00, 0x03, 0x7a
-2019-06-06 06:39:04.575 Detail, Node001, Queuing (Query) Query Stage Complete (Neighbors)
-2019-06-06 06:39:04.575 Info, contrlr,     Node 002 - Known
-2019-06-06 06:39:04.575 Detail, Node002, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Probe live=1
-2019-06-06 06:39:04.575 Detail, Node002, QueryStage_Probe
-2019-06-06 06:39:04.575 Info, Node002, NoOperation::Set - Routing=true
-2019-06-06 06:39:04.575 Detail, Node002, Queuing (NoOp) NoOperation_Set (Node=2): 0x01, 0x09, 0x00, 0x13, 0x02, 0x02, 0x00, 0x00, 0x25, 0x0a, 0xca
-2019-06-06 06:39:04.575 Detail, Node002, Queuing (Query) Query Stage Complete (Probe)
-2019-06-06 06:39:04.575 Info, contrlr,     Node 004 - Known
-2019-06-06 06:39:04.575 Detail, Node004, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
-2019-06-06 06:39:04.575 Detail, Node004, QueryStage_CacheLoad
-2019-06-06 06:39:04.575 Info, Node004, Node Identity Codes: 0258:0003:1082
-2019-06-06 06:39:04.575 Info, Node004, NoOperation::Set - Routing=true
-2019-06-06 06:39:04.575 Detail, Node004, Queuing (NoOp) NoOperation_Set (Node=4): 0x01, 0x09, 0x00, 0x13, 0x04, 0x02, 0x00, 0x00, 0x25, 0x0b, 0xcd
-2019-06-06 06:39:04.575 Detail, Node004, Queuing (Query) Query Stage Complete (CacheLoad)
-2019-06-06 06:39:04.575 Info, contrlr,     Node 005 - Known
-2019-06-06 06:39:04.575 Detail, Node005, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Probe live=1
-2019-06-06 06:39:04.575 Detail, Node005, QueryStage_Probe
-2019-06-06 06:39:04.575 Info, Node005, NoOperation::Set - Routing=true
-2019-06-06 06:39:04.576 Detail, Node005, Queuing (NoOp) NoOperation_Set (Node=5): 0x01, 0x09, 0x00, 0x13, 0x05, 0x02, 0x00, 0x00, 0x25, 0x0c, 0xcb
-2019-06-06 06:39:04.576 Detail, Node005, Queuing (Query) Query Stage Complete (Probe)
-2019-06-06 06:39:04.576 Info, contrlr,     Node 006 - Known
-2019-06-06 06:39:04.576 Detail, Node006, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
-2019-06-06 06:39:04.576 Detail, Node006, QueryStage_CacheLoad
-2019-06-06 06:39:04.576 Info, Node006, Node Identity Codes: 0258:0003:1082
-2019-06-06 06:39:04.576 Info, Node006, NoOperation::Set - Routing=true
-2019-06-06 06:39:04.576 Detail, Node006, Queuing (NoOp) NoOperation_Set (Node=6): 0x01, 0x09, 0x00, 0x13, 0x06, 0x02, 0x00, 0x00, 0x25, 0x0d, 0xc9
-2019-06-06 06:39:04.576 Detail, Node006, Queuing (Query) Query Stage Complete (CacheLoad)
-2019-06-06 06:39:04.576 Detail,   Expected reply was received
-2019-06-06 06:39:04.576 Detail,   Message transaction complete
-2019-06-06 06:39:04.576 Detail, 
-2019-06-06 06:39:04.576 Detail, contrlr, Removing current message
-2019-06-06 06:39:04.576 Detail, Node001, Notification: DriverReady
-2019-06-06 06:39:04.611 Detail, Node001, Notification: NodeAdded
-2019-06-06 06:39:04.622 Detail, Node001, Notification: NodeProtocolInfo
-2019-06-06 06:39:04.623 Detail, Node001, Notification: EssentialNodeQueriesComplete
-2019-06-06 06:39:04.624 Detail, Node001, Notification: ValueAdded
-2019-06-06 06:39:04.626 Detail, Node001, Notification: NodeNaming
-2019-06-06 06:39:04.627 Detail, Node002, Notification: NodeAdded
-2019-06-06 06:39:04.636 Detail, Node002, Notification: NodeProtocolInfo
-2019-06-06 06:39:04.639 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.643 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.651 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.657 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.662 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.665 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.667 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.672 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.673 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.679 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.685 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.691 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.694 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.696 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.698 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.699 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.702 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.703 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.704 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.705 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.709 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.710 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.711 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.712 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.714 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.715 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.716 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.717 Detail, Node002, Notification: Group
-2019-06-06 06:39:04.717 Detail, Node002, Notification: Group
-2019-06-06 06:39:04.718 Detail, Node002, Notification: Group
-2019-06-06 06:39:04.718 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.719 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.720 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.721 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.722 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.723 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.724 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.727 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.729 Detail, Node002, Notification: ValueAdded
-2019-06-06 06:39:04.731 Detail, Node002, Notification: Group
-2019-06-06 06:39:04.731 Detail, Node002, Notification: Group
-2019-06-06 06:39:04.731 Detail, Node002, Notification: Group
-2019-06-06 06:39:04.731 Detail, Node002, Notification: NodeNaming
-2019-06-06 06:39:04.733 Detail, Node004, Notification: NodeAdded
-2019-06-06 06:39:04.741 Detail, Node004, Notification: NodeProtocolInfo
-2019-06-06 06:39:04.745 Detail, Node004, Notification: EssentialNodeQueriesComplete
-2019-06-06 06:39:04.745 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.746 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.750 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.757 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.759 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.760 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.762 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.763 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.770 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.834 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.846 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.856 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.858 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.868 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.871 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.873 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.877 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.880 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.885 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.887 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.890 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.895 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.897 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.899 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.900 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.901 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.903 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.904 Detail, Node004, Notification: Group
-2019-06-06 06:39:04.904 Detail, Node004, Notification: Group
-2019-06-06 06:39:04.904 Detail, Node004, Notification: Group
-2019-06-06 06:39:04.904 Detail, Node004, Notification: Group
-2019-06-06 06:39:04.905 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.906 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.907 Detail, Node004, Notification: ValueAdded
-2019-06-06 06:39:04.908 Detail, Node004, Notification: NodeNaming
-2019-06-06 06:39:04.911 Detail, Node005, Notification: NodeAdded
-2019-06-06 06:39:04.918 Detail, Node005, Notification: NodeProtocolInfo
-2019-06-06 06:39:04.919 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.920 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.924 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.926 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.932 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.933 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.935 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.936 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.943 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.953 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.962 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.970 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.972 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.974 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.975 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.977 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.980 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.982 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.983 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.985 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.987 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.988 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.989 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.991 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.992 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.994 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.995 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:04.996 Detail, Node005, Notification: Group
-2019-06-06 06:39:04.997 Detail, Node005, Notification: Group
-2019-06-06 06:39:04.997 Detail, Node005, Notification: Group
-2019-06-06 06:39:04.997 Detail, Node005, Notification: Group
-2019-06-06 06:39:04.997 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:05.000 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:05.002 Detail, Node005, Notification: ValueAdded
-2019-06-06 06:39:05.008 Detail, Node005, Notification: NodeNaming
-2019-06-06 06:39:05.010 Detail, Node006, Notification: NodeAdded
-2019-06-06 06:39:05.022 Detail, Node006, Notification: NodeProtocolInfo
-2019-06-06 06:39:05.028 Detail, Node006, Notification: EssentialNodeQueriesComplete
-2019-06-06 06:39:05.031 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.034 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.047 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.053 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.054 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.056 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.078 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.081 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.091 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.109 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.121 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.135 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.139 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.143 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.145 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.155 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.157 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.159 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.161 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.162 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.169 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.176 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.179 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.183 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.186 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.189 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.191 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.192 Detail, Node006, Notification: Group
-2019-06-06 06:39:05.194 Detail, Node006, Notification: Group
-2019-06-06 06:39:05.194 Detail, Node006, Notification: Group
-2019-06-06 06:39:05.195 Detail, Node006, Notification: Group
-2019-06-06 06:39:05.195 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.196 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.199 Detail, Node006, Notification: ValueAdded
-2019-06-06 06:39:05.201 Detail, Node006, Notification: NodeNaming
-2019-06-06 06:39:05.204 Detail, 
-2019-06-06 06:39:05.204 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x06) - FUNC_ID_SERIAL_API_SET_TIMEOUTS: 0x01, 0x05, 0x00, 0x06, 0x64, 0x0f, 0x97
-2019-06-06 06:39:05.206 Detail, contrlr,   Received: 0x01, 0x05, 0x01, 0x06, 0x64, 0x0f, 0x96
-2019-06-06 06:39:05.206 Detail, 
-2019-06-06 06:39:05.206 Info, contrlr, Received reply to FUNC_ID_SERIAL_API_SET_TIMEOUTS
-2019-06-06 06:39:05.206 Detail, Node015,   Expected reply was received
-2019-06-06 06:39:05.206 Detail, Node015,   Message transaction complete
-2019-06-06 06:39:05.206 Detail, 
-2019-06-06 06:39:05.206 Detail, contrlr, Removing current message
-2019-06-06 06:39:05.206 Detail, 
-2019-06-06 06:39:05.206 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x00) - FUNC_ID_SERIAL_API_APPL_NODE_INFORMATION: 0x01, 0x07, 0x00, 0x03, 0x01, 0x02, 0x01, 0x00, 0xf9
-2019-06-06 06:39:05.209 Detail, contrlr, Removing current message
-2019-06-06 06:39:05.209 Detail, 
-2019-06-06 06:39:05.209 Info, Node001, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=1): 0x01, 0x07, 0x00, 0x80, 0x01, 0x00, 0x00, 0x03, 0x7a
-2019-06-06 06:39:05.213 Detail, Node001,   Received: 0x01, 0x20, 0x01, 0x80, 0x3a, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x64
-2019-06-06 06:39:05.213 Detail, 
-2019-06-06 06:39:05.213 Info, Node001, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
-2019-06-06 06:39:05.213 Info, Node001,     Neighbors of this node are:
-2019-06-06 06:39:05.213 Info, Node001,     Node 2
-2019-06-06 06:39:05.213 Info, Node001,     Node 4
-2019-06-06 06:39:05.213 Info, Node001,     Node 5
-2019-06-06 06:39:05.213 Info, Node001,     Node 6
-2019-06-06 06:39:05.213 Detail,   Expected reply was received
-2019-06-06 06:39:05.213 Detail,   Message transaction complete
-2019-06-06 06:39:05.213 Detail, 
-2019-06-06 06:39:05.214 Detail, Node001, Removing current message
-2019-06-06 06:39:05.214 Detail, 
-2019-06-06 06:39:05.214 Info, Node002, Sending (NoOp) message (Callback ID=0x0a, Expected Reply=0x13) - NoOperation_Set (Node=2): 0x01, 0x09, 0x00, 0x13, 0x02, 0x02, 0x00, 0x00, 0x25, 0x0a, 0xca
-2019-06-06 06:39:05.225 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
-2019-06-06 06:39:05.225 Detail, Node002,   ZW_SEND_DATA delivered to Z-Wave stack
-2019-06-06 06:39:09.353 Detail, Node002,   Received: 0x01, 0x07, 0x00, 0x13, 0x0a, 0x01, 0x01, 0x9d, 0x7c
-2019-06-06 06:39:09.353 Detail, Node002,   ZW_SEND_DATA Request with callback ID 0x0a received (expected 0x0a)
-2019-06-06 06:39:09.353 Info, Node002, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
-2019-06-06 06:39:09.353 Warning, Node002, WARNING: Device is not a sleeping node.
-2019-06-06 06:39:09.353 Info, Node002, QueryStageRetry stage Probe requested stage Probe max 3 retries 0 pending 1
-2019-06-06 06:39:09.353 Detail, Node001,   Expected callbackId was received
-2019-06-06 06:39:09.353 Detail, Node001,   Expected reply was received
-2019-06-06 06:39:09.353 Detail, Node001,   Message transaction complete
-2019-06-06 06:39:09.353 Detail, 
-2019-06-06 06:39:09.353 Detail, Node002, Removing current message
-2019-06-06 06:39:09.354 Detail, Node002, Notification: Notification - NoOperation
-2019-06-06 06:39:09.389 Detail, 
-2019-06-06 06:39:09.389 Info, Node004, Sending (NoOp) message (Callback ID=0x0b, Expected Reply=0x13) - NoOperation_Set (Node=4): 0x01, 0x09, 0x00, 0x13, 0x04, 0x02, 0x00, 0x00, 0x25, 0x0b, 0xcd
-2019-06-06 06:39:09.397 Detail, Node004,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
-2019-06-06 06:39:09.397 Detail, Node004,   ZW_SEND_DATA delivered to Z-Wave stack
-2019-06-06 06:39:13.611 Detail, Node004,   Received: 0x01, 0x07, 0x00, 0x13, 0x0b, 0x01, 0x01, 0xa6, 0x46
-2019-06-06 06:39:13.611 Detail, Node004,   ZW_SEND_DATA Request with callback ID 0x0b received (expected 0x0b)
-2019-06-06 06:39:13.612 Info, Node004, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
-2019-06-06 06:39:13.612 Info, Node004,   Node 4 has been marked as asleep
-2019-06-06 06:39:13.612 Info, Node004, Node not responding - moving controller command to Wake-Up queue: Delete All Return Routes
-2019-06-06 06:39:13.612 Info, Node004, Node not responding - moving controller command to Wake-Up queue: Assign Return Route
-2019-06-06 06:39:13.612 Info, Node004, Node not responding - moving QueryStageComplete command to Wake-Up queue
-2019-06-06 06:39:13.612 Detail, Node004, Notification: Notification - NoOperation
-2019-06-06 06:39:13.621 Detail, Node004, Notification: Notification - Node Asleep
-2019-06-06 06:39:13.631 Detail, 
-2019-06-06 06:39:13.632 Info, Node005, Sending (NoOp) message (Callback ID=0x0c, Expected Reply=0x13) - NoOperation_Set (Node=5): 0x01, 0x09, 0x00, 0x13, 0x05, 0x02, 0x00, 0x00, 0x25, 0x0c, 0xcb
-2019-06-06 06:39:13.641 Detail, Node005,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
-2019-06-06 06:39:13.642 Detail, Node005,   ZW_SEND_DATA delivered to Z-Wave stack
-2019-06-06 06:39:17.870 Detail, Node005,   Received: 0x01, 0x07, 0x00, 0x13, 0x0c, 0x01, 0x01, 0xa7, 0x40
-2019-06-06 06:39:17.870 Detail, Node005,   ZW_SEND_DATA Request with callback ID 0x0c received (expected 0x0c)
-2019-06-06 06:39:17.870 Info, Node005, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
-2019-06-06 06:39:17.871 Info, Node005,   Node 5 has been marked as asleep
-2019-06-06 06:39:17.871 Info, Node005, Node not responding - moving controller command to Wake-Up queue: Delete All Return Routes
-2019-06-06 06:39:17.871 Info, Node005, Node not responding - moving controller command to Wake-Up queue: Assign Return Route
-2019-06-06 06:39:17.871 Info, Node005, Node not responding - moving QueryStageComplete command to Wake-Up queue
-2019-06-06 06:39:17.871 Detail, Node005, Notification: Notification - NoOperation
-2019-06-06 06:39:17.874 Detail, Node005, Notification: Notification - Node Asleep
-2019-06-06 06:39:17.877 Detail, 
-2019-06-06 06:39:17.878 Info, Node006, Sending (NoOp) message (Callback ID=0x0d, Expected Reply=0x13) - NoOperation_Set (Node=6): 0x01, 0x09, 0x00, 0x13, 0x06, 0x02, 0x00, 0x00, 0x25, 0x0d, 0xc9
-2019-06-06 06:39:17.886 Detail, Node006,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
-2019-06-06 06:39:17.888 Detail, Node006,   ZW_SEND_DATA delivered to Z-Wave stack
-2019-06-06 06:39:22.181 Detail, Node006,   Received: 0x01, 0x07, 0x00, 0x13, 0x0d, 0x01, 0x01, 0xae, 0x48
-2019-06-06 06:39:22.181 Detail, Node006,   ZW_SEND_DATA Request with callback ID 0x0d received (expected 0x0d)
-2019-06-06 06:39:22.182 Info, Node006, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
-2019-06-06 06:39:22.182 Info, Node006,   Node 6 has been marked as asleep
-2019-06-06 06:39:22.182 Info, Node006, Node not responding - moving controller command to Wake-Up queue: Delete All Return Routes
-2019-06-06 06:39:22.182 Info, Node006, Node not responding - moving controller command to Wake-Up queue: Assign Return Route
-2019-06-06 06:39:22.182 Info, Node006, Node not responding - moving QueryStageComplete command to Wake-Up queue
-2019-06-06 06:39:22.182 Detail, Node006, Notification: Notification - NoOperation
-2019-06-06 06:39:22.187 Detail, Node006, Notification: Notification - Node Asleep
-2019-06-06 06:39:22.192 Info, Deleting all return routes from node 2
-2019-06-06 06:39:22.192 Detail, Node002, Queuing (Command) ControllerCommand_DeleteAllReturnRoutess (Node=2): 0x01, 0x05, 0x00, 0x47, 0x02, 0x0e, 0xb1
-2019-06-06 06:39:22.192 Detail, Notification: ControllerCommand - Starting
-2019-06-06 06:39:22.196 Detail, 
-2019-06-06 06:39:22.196 Info, Node002, Sending (Command) message (Callback ID=0x0e, Expected Reply=0x47) - ControllerCommand_DeleteAllReturnRoutess (Node=2): 0x01, 0x05, 0x00, 0x47, 0x02, 0x0e, 0xb1
-2019-06-06 06:39:22.206 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x47, 0x01, 0xbc
-2019-06-06 06:39:22.209 Detail, 
-2019-06-06 06:39:22.209 Info, Node002, Received reply to FUNC_ID_ZW_DELETE_RETURN_ROUTE - command in progress
-2019-06-06 06:39:22.209 Detail, Notification: ControllerCommand - InProgress
-2019-06-06 06:39:22.306 Detail, Node002,   Received: 0x01, 0x05, 0x00, 0x47, 0x0e, 0x01, 0xb2
-2019-06-06 06:39:22.307 Detail, 
-2019-06-06 06:39:22.307 Info, Node002, WARNING: ZW_DELETE_RETURN_ROUTE failed. No ACK received - device may be asleep.
-2019-06-06 06:39:22.307 Warning, Node002, WARNING: Device is not a sleeping node.
-2019-06-06 06:39:22.307 Detail, Node001,   Expected callbackId was received
-2019-06-06 06:39:22.307 Detail, Node001,   Expected reply was received
-2019-06-06 06:39:22.307 Detail, Node001,   Message transaction complete
-2019-06-06 06:39:22.307 Detail, 
-2019-06-06 06:39:22.307 Detail, Node002, Removing current message
-2019-06-06 06:39:22.307 Detail, Notification: ControllerCommand - Failed
-2019-06-06 06:39:22.309 Info, Assigning return route from node 2 to node 1
-2019-06-06 06:39:22.310 Detail, Node002, Queuing (Command) ControllerCommand_AssignReturnRoute (Node=2): 0x01, 0x06, 0x00, 0x46, 0x02, 0x01, 0x0f, 0xb3
-2019-06-06 06:39:22.310 Detail, Notification: ControllerCommand - Starting
-2019-06-06 06:39:22.310 Detail, 
-2019-06-06 06:39:22.310 Info, Node002, Sending (Command) message (Callback ID=0x0f, Expected Reply=0x46) - ControllerCommand_AssignReturnRoute (Node=2): 0x01, 0x06, 0x00, 0x46, 0x02, 0x01, 0x0f, 0xb3
-2019-06-06 06:39:22.325 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x46, 0x01, 0xbd
-2019-06-06 06:39:22.325 Detail, 
-2019-06-06 06:39:22.325 Info, Node002, Received reply to FUNC_ID_ZW_ASSIGN_RETURN_ROUTE - command in progress
-2019-06-06 06:39:22.325 Detail, Notification: ControllerCommand - InProgress
-2019-06-06 06:39:22.394 Detail, Node002,   Received: 0x01, 0x05, 0x00, 0x46, 0x0f, 0x01, 0xb2
-2019-06-06 06:39:22.395 Detail, 
-2019-06-06 06:39:22.395 Info, Node002, WARNING: ZW_ASSIGN_RETURN_ROUTE failed. No ACK received - device may be asleep.
-2019-06-06 06:39:22.395 Warning, Node002, WARNING: Device is not a sleeping node.
-2019-06-06 06:39:22.395 Error, Node002, ERROR: node presumed dead
-2019-06-06 06:39:22.395 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
-2019-06-06 06:39:22.395 Warning, CheckCompletedNodeQueries all=0, deadFound=1 sleepingOnly=0
-2019-06-06 06:39:22.395 Detail, Node001,   Expected callbackId was received
-2019-06-06 06:39:22.395 Detail, Node001,   Expected reply was received
-2019-06-06 06:39:22.395 Detail, Node001,   Message transaction complete
-2019-06-06 06:39:22.395 Detail, 
-2019-06-06 06:39:22.395 Detail, Node002, Removing current message
-2019-06-06 06:39:22.396 Detail, Node002, Notification: Notification - Node Dead
-2019-06-06 06:39:22.400 Detail, Notification: ControllerCommand - Failed
-2019-06-06 06:39:22.405 Detail, Node001, Query Stage Complete (Neighbors)
-2019-06-06 06:39:22.405 Detail, Node001, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
-2019-06-06 06:39:22.406 Detail, Node001, QueryStage_Session
-2019-06-06 06:39:22.406 Detail, Node001, QueryStage_Dynamic
-2019-06-06 06:39:22.406 Detail, Node001, QueryStage_Configuration
-2019-06-06 06:39:22.406 Detail, Node001, QueryStage_Complete
-2019-06-06 06:39:22.406 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
-2019-06-06 06:39:22.406 Warning, CheckCompletedNodeQueries all=0, deadFound=1 sleepingOnly=1
-2019-06-06 06:39:22.406 Info,          Node query processing complete except for sleeping nodes.
-2019-06-06 06:39:22.406 Detail, Node001, Notification: NodeQueriesComplete
-2019-06-06 06:39:22.409 Detail, contrlr, Notification: AwakeNodesQueried
-2019-06-06 06:39:22.415 Detail, Node002, Query Stage Complete (Probe)
-2019-06-06 06:39:22.416 Detail, Node002, AdvanceQueries queryPending=0 queryRetries=1 queryStage=Probe live=0
+2019-06-06 21:17:13.534 Always, OpenZwave Version 1.4.3440 Starting Up
+2019-06-06 21:17:27.674 Info, Setting Up Provided Network Key for Secure Communications
+2019-06-06 21:17:27.675 Info, mgr,     Added driver for controller /dev/ttyACM0
+2019-06-06 21:17:27.675 Info,   Opening controller /dev/ttyACM0
+2019-06-06 21:17:27.675 Info, Trying to open serial port /dev/ttyACM0 (attempt 1)
+2019-06-06 21:17:27.676 Info, Serial port /dev/ttyACM0 opened (attempt 1)
+2019-06-06 21:17:27.676 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2019-06-06 21:17:27.677 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2019-06-06 21:17:27.677 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2019-06-06 21:17:27.677 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2019-06-06 21:17:27.677 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2019-06-06 21:17:27.677 Detail, 
+2019-06-06 21:17:27.677 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x15) - FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2019-06-06 21:17:27.679 Detail, contrlr,   Received: 0x01, 0x10, 0x01, 0x15, 0x5a, 0x2d, 0x57, 0x61, 0x76, 0x65, 0x20, 0x34, 0x2e, 0x35, 0x34, 0x00, 0x01, 0x93
+2019-06-06 21:17:27.679 Detail, 
+2019-06-06 21:17:27.679 Info, contrlr, Received reply to FUNC_ID_ZW_GET_VERSION:
+2019-06-06 21:17:27.679 Info, contrlr,     Static Controller library, version Z-Wave 4.54
+2019-06-06 21:17:27.679 Detail, Node045,   Expected reply was received
+2019-06-06 21:17:27.679 Detail, Node045,   Message transaction complete
+2019-06-06 21:17:27.679 Detail, 
+2019-06-06 21:17:27.679 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.679 Detail, 
+2019-06-06 21:17:27.679 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x20) - FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2019-06-06 21:17:27.682 Detail, contrlr,   Received: 0x01, 0x08, 0x01, 0x20, 0xdb, 0x2c, 0x6d, 0x76, 0x01, 0x3b
+2019-06-06 21:17:27.685 Detail, 
+2019-06-06 21:17:27.685 Info, contrlr, Received reply to FUNC_ID_ZW_MEMORY_GET_ID. Home ID = 0xdb2c6d76.  Our node ID = 1
+2019-06-06 21:17:27.685 Detail, Node044,   Expected reply was received
+2019-06-06 21:17:27.685 Detail, Node044,   Message transaction complete
+2019-06-06 21:17:27.685 Detail, 
+2019-06-06 21:17:27.685 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.685 Detail, 
+2019-06-06 21:17:27.685 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x05) - FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2019-06-06 21:17:27.688 Detail, contrlr,   Received: 0x01, 0x04, 0x01, 0x05, 0x08, 0xf7
+2019-06-06 21:17:27.688 Detail, 
+2019-06-06 21:17:27.688 Info, contrlr, Received reply to FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES:
+2019-06-06 21:17:27.688 Info, contrlr,     There is no SUC ID Server (SIS) in this network.
+2019-06-06 21:17:27.688 Info, contrlr,     The PC controller is a primary controller.
+2019-06-06 21:17:27.688 Detail, Node247,   Expected reply was received
+2019-06-06 21:17:27.688 Detail, Node247,   Message transaction complete
+2019-06-06 21:17:27.688 Detail, 
+2019-06-06 21:17:27.688 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.689 Detail, 
+2019-06-06 21:17:27.689 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x07) - FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2019-06-06 21:17:27.692 Detail, contrlr,   Received: 0x01, 0x2b, 0x01, 0x07, 0x01, 0x01, 0x00, 0x86, 0x00, 0x01, 0x00, 0x5a, 0xfe, 0x81, 0xff, 0x88, 0x4f, 0x1f, 0x00, 0x00, 0xfb, 0x9f, 0x7d, 0xa0, 0x67, 0x00, 0x00, 0x80, 0x00, 0x80, 0x86, 0x00, 0x00, 0x00, 0xe8, 0x73, 0x00, 0x00, 0x0e, 0x00, 0x00, 0x60, 0x00, 0x00, 0xfa
+2019-06-06 21:17:27.692 Detail, 
+2019-06-06 21:17:27.693 Info, contrlr,  Received reply to FUNC_ID_SERIAL_API_GET_CAPABILITIES
+2019-06-06 21:17:27.693 Info, contrlr,     Serial API Version:   1.1
+2019-06-06 21:17:27.693 Info, contrlr,     Manufacturer ID:      0x0086
+2019-06-06 21:17:27.693 Info, contrlr,     Product Type:         0x0001
+2019-06-06 21:17:27.693 Info, contrlr,     Product ID:           0x005a
+2019-06-06 21:17:27.693 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_RANDOM: 0x01, 0x04, 0x00, 0x1c, 0x20, 0xc7
+2019-06-06 21:17:27.693 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_INIT_DATA: 0x01, 0x03, 0x00, 0x02, 0xfe
+2019-06-06 21:17:27.693 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_SET_TIMEOUTS: 0x01, 0x05, 0x00, 0x06, 0x64, 0x0f, 0x97
+2019-06-06 21:17:27.693 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_APPL_NODE_INFORMATION: 0x01, 0x07, 0x00, 0x03, 0x01, 0x02, 0x01, 0x00, 0xf9
+2019-06-06 21:17:27.693 Detail, Node001,   Expected reply was received
+2019-06-06 21:17:27.693 Detail, Node001,   Message transaction complete
+2019-06-06 21:17:27.693 Detail, 
+2019-06-06 21:17:27.693 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.693 Detail, 
+2019-06-06 21:17:27.693 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x56) - FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2019-06-06 21:17:27.695 Detail, contrlr,   Received: 0x01, 0x04, 0x01, 0x56, 0x00, 0xac
+2019-06-06 21:17:27.695 Detail, 
+2019-06-06 21:17:27.695 Info, contrlr, Received reply to GET_SUC_NODE_ID.  Node ID = 0
+2019-06-06 21:17:27.695 Info, Controller Does not Support SUC - Cannot Setup Controller as SUC Node
+2019-06-06 21:17:27.695 Detail, Node172,   Expected reply was received
+2019-06-06 21:17:27.695 Detail, Node172,   Message transaction complete
+2019-06-06 21:17:27.695 Detail, 
+2019-06-06 21:17:27.695 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.695 Detail, 
+2019-06-06 21:17:27.695 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x1c) - FUNC_ID_ZW_GET_RANDOM: 0x01, 0x04, 0x00, 0x1c, 0x20, 0xc7
+2019-06-06 21:17:27.751 Detail, contrlr,   Received: 0x01, 0x25, 0x01, 0x1c, 0x01, 0x20, 0xb5, 0xc2, 0x73, 0xf7, 0x1d, 0x88, 0xcf, 0x49, 0x1b, 0x76, 0xb4, 0x38, 0x68, 0x0b, 0x0e, 0x71, 0x7a, 0xcf, 0xfc, 0x66, 0x2c, 0x44, 0x64, 0xa7, 0xbe, 0x3d, 0x46, 0x1f, 0x5e, 0xdc, 0x5c, 0xbc, 0xc7
+2019-06-06 21:17:27.751 Detail, 
+2019-06-06 21:17:27.751 Info, contrlr, Received reply to FUNC_ID_ZW_GET_RANDOM: true
+2019-06-06 21:17:27.751 Detail, Node032,   Expected reply was received
+2019-06-06 21:17:27.751 Detail, Node032,   Message transaction complete
+2019-06-06 21:17:27.751 Detail, 
+2019-06-06 21:17:27.752 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.752 Detail, 
+2019-06-06 21:17:27.752 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x02) - FUNC_ID_SERIAL_API_GET_INIT_DATA: 0x01, 0x03, 0x00, 0x02, 0xfe
+2019-06-06 21:17:27.856 Detail, contrlr,   Received: 0x01, 0x25, 0x01, 0x02, 0x05, 0x00, 0x1d, 0x3b, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0xff
+2019-06-06 21:17:27.856 Detail, 
+2019-06-06 21:17:27.856 Info, mgr,     Driver with Home ID of 0xdb2c6d76 is now ready.
+2019-06-06 21:17:27.856 Info, 
+2019-06-06 21:17:27.874 Detail, Node002, Queuing (Controller) Delete All Return Routes
+2019-06-06 21:17:27.874 Detail, Node002, Queuing (Controller) Assign Return Route
+2019-06-06 21:17:27.875 Detail, Node004, Queuing (Controller) Delete All Return Routes
+2019-06-06 21:17:27.875 Detail, Node004, Queuing (Controller) Assign Return Route
+2019-06-06 21:17:27.876 Detail, Node005, Queuing (Controller) Delete All Return Routes
+2019-06-06 21:17:27.876 Detail, Node005, Queuing (Controller) Assign Return Route
+2019-06-06 21:17:27.877 Detail, Node006, Queuing (Controller) Delete All Return Routes
+2019-06-06 21:17:27.877 Detail, Node006, Queuing (Controller) Assign Return Route
+2019-06-06 21:17:27.881 Info, contrlr, Received reply to FUNC_ID_SERIAL_API_GET_INIT_DATA:
+2019-06-06 21:17:27.882 Info, contrlr,     Node 001 - Known
+2019-06-06 21:17:27.882 Detail, Node001, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2019-06-06 21:17:27.882 Detail, Node001, QueryStage_CacheLoad
+2019-06-06 21:17:27.882 Info, Node001, Node Identity Codes: 0086:0001:005a
+2019-06-06 21:17:27.882 Detail, Node001, QueryStage_Associations
+2019-06-06 21:17:27.883 Detail, Node001, QueryStage_Neighbors
+2019-06-06 21:17:27.883 Detail, contrlr, Requesting routing info (neighbor list) for Node 1
+2019-06-06 21:17:27.883 Detail, Node001, Queuing (Command) Get Routing Info (Node=1): 0x01, 0x07, 0x00, 0x80, 0x01, 0x00, 0x00, 0x03, 0x7a
+2019-06-06 21:17:27.883 Detail, Node001, Queuing (Query) Query Stage Complete (Neighbors)
+2019-06-06 21:17:27.883 Info, contrlr,     Node 002 - Known
+2019-06-06 21:17:27.883 Detail, Node002, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2019-06-06 21:17:27.883 Detail, Node002, QueryStage_CacheLoad
+2019-06-06 21:17:27.883 Info, Node002, Node Identity Codes: 0258:0003:108b
+2019-06-06 21:17:27.883 Info, Node002, NoOperation::Set - Routing=true
+2019-06-06 21:17:27.883 Detail, Node002, Queuing (NoOp) NoOperation_Set (Node=2): 0x01, 0x09, 0x00, 0x13, 0x02, 0x02, 0x00, 0x00, 0x25, 0x0a, 0xca
+2019-06-06 21:17:27.883 Detail, Node002, Queuing (Query) Query Stage Complete (CacheLoad)
+2019-06-06 21:17:27.883 Info, contrlr,     Node 004 - Known
+2019-06-06 21:17:27.883 Detail, Node004, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2019-06-06 21:17:27.883 Detail, Node004, QueryStage_CacheLoad
+2019-06-06 21:17:27.883 Info, Node004, Node Identity Codes: 0258:0003:1082
+2019-06-06 21:17:27.883 Info, Node004, NoOperation::Set - Routing=true
+2019-06-06 21:17:27.883 Detail, Node004, Queuing (NoOp) NoOperation_Set (Node=4): 0x01, 0x09, 0x00, 0x13, 0x04, 0x02, 0x00, 0x00, 0x25, 0x0b, 0xcd
+2019-06-06 21:17:27.883 Detail, Node004, Queuing (Query) Query Stage Complete (CacheLoad)
+2019-06-06 21:17:27.883 Info, contrlr,     Node 005 - Known
+2019-06-06 21:17:27.883 Detail, Node005, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Probe live=1
+2019-06-06 21:17:27.883 Detail, Node005, QueryStage_Probe
+2019-06-06 21:17:27.883 Info, Node005, NoOperation::Set - Routing=true
+2019-06-06 21:17:27.884 Detail, Node005, Queuing (NoOp) NoOperation_Set (Node=5): 0x01, 0x09, 0x00, 0x13, 0x05, 0x02, 0x00, 0x00, 0x25, 0x0c, 0xcb
+2019-06-06 21:17:27.884 Detail, Node005, Queuing (Query) Query Stage Complete (Probe)
+2019-06-06 21:17:27.884 Info, contrlr,     Node 006 - Known
+2019-06-06 21:17:27.884 Detail, Node006, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2019-06-06 21:17:27.884 Detail, Node006, QueryStage_CacheLoad
+2019-06-06 21:17:27.884 Info, Node006, Node Identity Codes: 0258:0003:1082
+2019-06-06 21:17:27.884 Info, Node006, NoOperation::Set - Routing=true
+2019-06-06 21:17:27.884 Detail, Node006, Queuing (NoOp) NoOperation_Set (Node=6): 0x01, 0x09, 0x00, 0x13, 0x06, 0x02, 0x00, 0x00, 0x25, 0x0d, 0xc9
+2019-06-06 21:17:27.884 Detail, Node006, Queuing (Query) Query Stage Complete (CacheLoad)
+2019-06-06 21:17:27.884 Detail,   Expected reply was received
+2019-06-06 21:17:27.884 Detail,   Message transaction complete
+2019-06-06 21:17:27.884 Detail, 
+2019-06-06 21:17:27.884 Detail, contrlr, Removing current message
+2019-06-06 21:17:27.884 Detail, Node001, Notification: DriverReady
+2019-06-06 21:17:27.990 Detail, Node001, Notification: NodeAdded
+2019-06-06 21:17:28.230 Detail, Node001, Notification: NodeProtocolInfo
+2019-06-06 21:17:28.258 Detail, Node001, Notification: EssentialNodeQueriesComplete
+2019-06-06 21:17:28.279 Detail, Node001, Notification: ValueAdded
+2019-06-06 21:17:28.378 Detail, Node001, Notification: NodeNaming
+2019-06-06 21:17:28.398 Detail, Node002, Notification: NodeAdded
+2019-06-06 21:17:34.429 Detail, Node002, Notification: NodeProtocolInfo
+2019-06-06 21:17:34.576 Detail, Node002, Notification: EssentialNodeQueriesComplete
+2019-06-06 21:17:34.635 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:34.926 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:35.163 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:35.506 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:35.615 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:35.695 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.186 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.275 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.316 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.561 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.625 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.722 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.803 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:36.973 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.015 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.049 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.106 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.181 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.267 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.365 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.771 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:37.951 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:38.136 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:38.316 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:38.424 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:38.575 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:38.692 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:38.786 Detail, Node002, Notification: Group
+2019-06-06 21:17:38.807 Detail, Node002, Notification: Group
+2019-06-06 21:17:38.872 Detail, Node002, Notification: Group
+2019-06-06 21:17:38.967 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:39.132 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:39.300 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:39.640 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:39.865 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:40.455 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:40.694 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:40.808 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:40.889 Detail, Node002, Notification: ValueAdded
+2019-06-06 21:17:40.933 Detail, Node002, Notification: Group
+2019-06-06 21:17:40.948 Detail, Node002, Notification: Group
+2019-06-06 21:17:40.957 Detail, Node002, Notification: Group
+2019-06-06 21:17:40.970 Detail, Node002, Notification: NodeNaming
+2019-06-06 21:17:40.985 Detail, Node004, Notification: NodeAdded
+2019-06-06 21:17:41.085 Detail, Node004, Notification: NodeProtocolInfo
+2019-06-06 21:17:41.136 Detail, Node004, Notification: EssentialNodeQueriesComplete
+2019-06-06 21:17:41.192 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.405 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.568 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.636 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.692 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.738 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.798 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.849 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:41.964 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.091 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.275 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.414 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.571 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.644 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.720 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.828 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:42.979 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:43.278 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:43.481 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:43.579 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:43.651 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:43.802 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:44.015 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:44.147 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:44.367 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:44.640 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:44.872 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:45.099 Detail, Node004, Notification: Group
+2019-06-06 21:17:45.150 Detail, Node004, Notification: Group
+2019-06-06 21:17:45.201 Detail, Node004, Notification: Group
+2019-06-06 21:17:45.227 Detail, Node004, Notification: Group
+2019-06-06 21:17:45.248 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:45.446 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:45.634 Detail, Node004, Notification: ValueAdded
+2019-06-06 21:17:45.824 Detail, Node004, Notification: NodeNaming
+2019-06-06 21:17:45.853 Detail, Node005, Notification: NodeAdded
+2019-06-06 21:17:45.951 Detail, Node005, Notification: NodeProtocolInfo
+2019-06-06 21:17:45.967 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.055 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.168 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.247 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.309 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.362 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.432 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.498 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.608 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.720 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.823 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:46.935 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.000 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.104 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.263 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.329 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.397 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.467 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.533 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.604 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.669 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.724 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.775 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.833 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.879 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.921 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:47.963 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:48.006 Detail, Node005, Notification: Group
+2019-06-06 21:17:48.012 Detail, Node005, Notification: Group
+2019-06-06 21:17:48.018 Detail, Node005, Notification: Group
+2019-06-06 21:17:48.024 Detail, Node005, Notification: Group
+2019-06-06 21:17:48.030 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:48.073 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:48.214 Detail, Node005, Notification: ValueAdded
+2019-06-06 21:17:48.258 Detail, Node005, Notification: NodeNaming
+2019-06-06 21:17:48.268 Detail, Node006, Notification: NodeAdded
+2019-06-06 21:17:48.314 Detail, Node006, Notification: NodeProtocolInfo
+2019-06-06 21:17:48.327 Detail, Node006, Notification: EssentialNodeQueriesComplete
+2019-06-06 21:17:48.334 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.445 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.603 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.670 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.744 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.807 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.865 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:48.926 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.068 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.227 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.390 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.536 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.669 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.791 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.894 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:49.980 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.099 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.211 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.290 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.379 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.486 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.569 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.645 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.706 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.798 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.878 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:50.961 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:51.029 Detail, Node006, Notification: Group
+2019-06-06 21:17:51.040 Detail, Node006, Notification: Group
+2019-06-06 21:17:51.049 Detail, Node006, Notification: Group
+2019-06-06 21:17:51.059 Detail, Node006, Notification: Group
+2019-06-06 21:17:51.077 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:51.153 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:51.230 Detail, Node006, Notification: ValueAdded
+2019-06-06 21:17:51.324 Detail, Node006, Notification: NodeNaming
+2019-06-06 21:17:51.341 Detail, 
+2019-06-06 21:17:51.341 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x06) - FUNC_ID_SERIAL_API_SET_TIMEOUTS: 0x01, 0x05, 0x00, 0x06, 0x64, 0x0f, 0x97
+2019-06-06 21:17:51.343 Detail, contrlr,   Received: 0x01, 0x05, 0x01, 0x06, 0x64, 0x0f, 0x96
+2019-06-06 21:17:51.343 Detail, 
+2019-06-06 21:17:51.343 Info, contrlr, Received reply to FUNC_ID_SERIAL_API_SET_TIMEOUTS
+2019-06-06 21:17:51.343 Detail, Node015,   Expected reply was received
+2019-06-06 21:17:51.343 Detail, Node015,   Message transaction complete
+2019-06-06 21:17:51.343 Detail, 
+2019-06-06 21:17:51.343 Detail, contrlr, Removing current message
+2019-06-06 21:17:51.343 Detail, 
+2019-06-06 21:17:51.343 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x00) - FUNC_ID_SERIAL_API_APPL_NODE_INFORMATION: 0x01, 0x07, 0x00, 0x03, 0x01, 0x02, 0x01, 0x00, 0xf9
+2019-06-06 21:17:51.345 Detail, contrlr, Removing current message
+2019-06-06 21:17:51.345 Detail, 
+2019-06-06 21:17:51.345 Info, Node001, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=1): 0x01, 0x07, 0x00, 0x80, 0x01, 0x00, 0x00, 0x03, 0x7a
+2019-06-06 21:17:51.350 Detail, Node001,   Received: 0x01, 0x20, 0x01, 0x80, 0x3a, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x64
+2019-06-06 21:17:51.350 Detail, 
+2019-06-06 21:17:51.350 Info, Node001, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2019-06-06 21:17:51.350 Info, Node001,     Neighbors of this node are:
+2019-06-06 21:17:51.350 Info, Node001,     Node 2
+2019-06-06 21:17:51.350 Info, Node001,     Node 4
+2019-06-06 21:17:51.350 Info, Node001,     Node 5
+2019-06-06 21:17:51.350 Info, Node001,     Node 6
+2019-06-06 21:17:51.350 Detail,   Expected reply was received
+2019-06-06 21:17:51.350 Detail,   Message transaction complete
+2019-06-06 21:17:51.350 Detail, 
+2019-06-06 21:17:51.350 Detail, Node001, Removing current message
+2019-06-06 21:17:51.350 Detail, 
+2019-06-06 21:17:51.350 Info, Node002, Sending (NoOp) message (Callback ID=0x0a, Expected Reply=0x13) - NoOperation_Set (Node=2): 0x01, 0x09, 0x00, 0x13, 0x02, 0x02, 0x00, 0x00, 0x25, 0x0a, 0xca
+2019-06-06 21:17:51.362 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2019-06-06 21:17:51.362 Detail, Node002,   ZW_SEND_DATA delivered to Z-Wave stack
+2019-06-06 21:17:51.485 Detail, Node002,   Received: 0x01, 0x07, 0x00, 0x13, 0x0a, 0x00, 0x00, 0x0e, 0xef
+2019-06-06 21:17:51.486 Detail, Node002,   ZW_SEND_DATA Request with callback ID 0x0a received (expected 0x0a)
+2019-06-06 21:17:51.486 Info, Node002, Request RTT 135 Average Request RTT 135
+2019-06-06 21:17:51.486 Detail,   Expected callbackId was received
+2019-06-06 21:17:51.486 Detail,   Expected reply was received
+2019-06-06 21:17:51.486 Detail,   Message transaction complete
+2019-06-06 21:17:51.486 Detail, 
+2019-06-06 21:17:51.486 Detail, Node002, Removing current message
+2019-06-06 21:17:51.486 Detail, Node002, Notification: Notification - NoOperation
+2019-06-06 21:17:51.498 Detail, 
+2019-06-06 21:17:51.498 Info, Node004, Sending (NoOp) message (Callback ID=0x0b, Expected Reply=0x13) - NoOperation_Set (Node=4): 0x01, 0x09, 0x00, 0x13, 0x04, 0x02, 0x00, 0x00, 0x25, 0x0b, 0xcd
+2019-06-06 21:17:51.509 Detail, Node004,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2019-06-06 21:17:51.509 Detail, Node004,   ZW_SEND_DATA delivered to Z-Wave stack
+2019-06-06 21:17:55.638 Detail, Node004,   Received: 0x01, 0x07, 0x00, 0x13, 0x0b, 0x01, 0x01, 0x9e, 0x7e
+2019-06-06 21:17:55.639 Detail, Node004,   ZW_SEND_DATA Request with callback ID 0x0b received (expected 0x0b)
+2019-06-06 21:17:55.639 Info, Node004, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
+2019-06-06 21:17:55.639 Info, Node004,   Node 4 has been marked as asleep
+2019-06-06 21:17:55.639 Info, Node004, Node not responding - moving controller command to Wake-Up queue: Delete All Return Routes
+2019-06-06 21:17:55.639 Info, Node004, Node not responding - moving controller command to Wake-Up queue: Assign Return Route
+2019-06-06 21:17:55.639 Info, Node004, Node not responding - moving QueryStageComplete command to Wake-Up queue
+2019-06-06 21:17:55.639 Detail, Node004, Notification: Notification - NoOperation
+2019-06-06 21:17:55.652 Detail, Node004, Notification: Notification - Node Asleep
+2019-06-06 21:17:55.664 Detail, 
+2019-06-06 21:17:55.664 Info, Node005, Sending (NoOp) message (Callback ID=0x0c, Expected Reply=0x13) - NoOperation_Set (Node=5): 0x01, 0x09, 0x00, 0x13, 0x05, 0x02, 0x00, 0x00, 0x25, 0x0c, 0xcb
+2019-06-06 21:17:55.675 Detail, Node005,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2019-06-06 21:17:55.675 Detail, Node005,   ZW_SEND_DATA delivered to Z-Wave stack
+2019-06-06 21:17:59.804 Detail, Node005,   Received: 0x01, 0x07, 0x00, 0x13, 0x0c, 0x01, 0x01, 0x9d, 0x7a
+2019-06-06 21:17:59.804 Detail, Node005,   ZW_SEND_DATA Request with callback ID 0x0c received (expected 0x0c)
+2019-06-06 21:17:59.804 Info, Node005, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
+2019-06-06 21:17:59.804 Info, Node005,   Node 5 has been marked as asleep
+2019-06-06 21:17:59.804 Info, Node005, Node not responding - moving controller command to Wake-Up queue: Delete All Return Routes
+2019-06-06 21:17:59.805 Info, Node005, Node not responding - moving controller command to Wake-Up queue: Assign Return Route
+2019-06-06 21:17:59.805 Info, Node005, Node not responding - moving QueryStageComplete command to Wake-Up queue
+2019-06-06 21:17:59.805 Detail, Node005, Notification: Notification - NoOperation
+2019-06-06 21:17:59.824 Detail, Node005, Notification: Notification - Node Asleep
+2019-06-06 21:17:59.837 Detail, 
+2019-06-06 21:17:59.837 Info, Node006, Sending (NoOp) message (Callback ID=0x0d, Expected Reply=0x13) - NoOperation_Set (Node=6): 0x01, 0x09, 0x00, 0x13, 0x06, 0x02, 0x00, 0x00, 0x25, 0x0d, 0xc9
+2019-06-06 21:17:59.848 Detail, Node006,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2019-06-06 21:17:59.848 Detail, Node006,   ZW_SEND_DATA delivered to Z-Wave stack
+2019-06-06 21:18:02.553 Detail, Node006,   Received: 0x01, 0x07, 0x00, 0x13, 0x0d, 0x01, 0x01, 0x0f, 0xe9
+2019-06-06 21:18:02.554 Detail, Node006,   ZW_SEND_DATA Request with callback ID 0x0d received (expected 0x0d)
+2019-06-06 21:18:02.554 Info, Node006, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
+2019-06-06 21:18:02.554 Info, Node006,   Node 6 has been marked as asleep
+2019-06-06 21:18:02.554 Info, Node006, Node not responding - moving controller command to Wake-Up queue: Delete All Return Routes
+2019-06-06 21:18:02.554 Info, Node006, Node not responding - moving controller command to Wake-Up queue: Assign Return Route
+2019-06-06 21:18:02.554 Info, Node006, Node not responding - moving QueryStageComplete command to Wake-Up queue
+2019-06-06 21:18:02.554 Detail, Node006, Notification: Notification - NoOperation
+2019-06-06 21:18:02.568 Detail, Node006, Notification: Notification - Node Asleep
+2019-06-06 21:18:02.584 Info, Deleting all return routes from node 2
+2019-06-06 21:18:02.584 Detail, Node002, Queuing (Command) ControllerCommand_DeleteAllReturnRoutess (Node=2): 0x01, 0x05, 0x00, 0x47, 0x02, 0x0e, 0xb1
+2019-06-06 21:18:02.584 Detail, Notification: ControllerCommand - Starting
+2019-06-06 21:18:02.596 Detail, 
+2019-06-06 21:18:02.596 Info, Node002, Sending (Command) message (Callback ID=0x0e, Expected Reply=0x47) - ControllerCommand_DeleteAllReturnRoutess (Node=2): 0x01, 0x05, 0x00, 0x47, 0x02, 0x0e, 0xb1
+2019-06-06 21:18:02.606 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x47, 0x01, 0xbc
+2019-06-06 21:18:02.606 Detail, 
+2019-06-06 21:18:02.606 Info, Node002, Received reply to FUNC_ID_ZW_DELETE_RETURN_ROUTE - command in progress
+2019-06-06 21:18:02.606 Detail, Notification: ControllerCommand - InProgress
+2019-06-06 21:18:02.691 Detail, Node002,   Received: 0x01, 0x05, 0x00, 0x47, 0x0e, 0x01, 0xb2
+2019-06-06 21:18:02.691 Detail, 
+2019-06-06 21:18:02.691 Info, Node002, WARNING: ZW_DELETE_RETURN_ROUTE failed. No ACK received - device may be asleep.
+2019-06-06 21:18:02.691 Warning, Node002, WARNING: Device is not a sleeping node.
+2019-06-06 21:18:02.691 Detail, Node001,   Expected callbackId was received
+2019-06-06 21:18:02.692 Detail, Node001,   Expected reply was received
+2019-06-06 21:18:02.692 Detail, Node001,   Message transaction complete
+2019-06-06 21:18:02.692 Detail, 
+2019-06-06 21:18:02.692 Detail, Node002, Removing current message
+2019-06-06 21:18:02.692 Detail, Notification: ControllerCommand - Failed
+2019-06-06 21:18:02.732 Info, Assigning return route from node 2 to node 1
+2019-06-06 21:18:02.732 Detail, Node002, Queuing (Command) ControllerCommand_AssignReturnRoute (Node=2): 0x01, 0x06, 0x00, 0x46, 0x02, 0x01, 0x0f, 0xb3
+2019-06-06 21:18:02.732 Detail, Notification: ControllerCommand - Starting
+2019-06-06 21:18:02.767 Detail, 
+2019-06-06 21:18:02.767 Info, Node002, Sending (Command) message (Callback ID=0x0f, Expected Reply=0x46) - ControllerCommand_AssignReturnRoute (Node=2): 0x01, 0x06, 0x00, 0x46, 0x02, 0x01, 0x0f, 0xb3
+2019-06-06 21:18:02.781 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x46, 0x01, 0xbd
+2019-06-06 21:18:02.782 Detail, 
+2019-06-06 21:18:02.782 Info, Node002, Received reply to FUNC_ID_ZW_ASSIGN_RETURN_ROUTE - command in progress
+2019-06-06 21:18:02.782 Detail, Notification: ControllerCommand - InProgress
+2019-06-06 21:18:02.882 Detail, Node002,   Received: 0x01, 0x05, 0x00, 0x46, 0x0f, 0x01, 0xb2
+2019-06-06 21:18:02.882 Detail, 
+2019-06-06 21:18:02.882 Info, Node002, WARNING: ZW_ASSIGN_RETURN_ROUTE failed. No ACK received - device may be asleep.
+2019-06-06 21:18:02.882 Warning, Node002, WARNING: Device is not a sleeping node.
+2019-06-06 21:18:02.882 Detail, Node001,   Expected callbackId was received
+2019-06-06 21:18:02.882 Detail, Node001,   Expected reply was received
+2019-06-06 21:18:02.882 Detail, Node001,   Message transaction complete
+2019-06-06 21:18:02.882 Detail, 
+2019-06-06 21:18:02.882 Detail, Node002, Removing current message
+2019-06-06 21:18:02.882 Detail, Notification: ControllerCommand - Failed
+2019-06-06 21:18:02.891 Detail, Node001, Query Stage Complete (Neighbors)
+2019-06-06 21:18:02.891 Detail, Node001, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2019-06-06 21:18:02.891 Detail, Node001, QueryStage_Session
+2019-06-06 21:18:02.891 Detail, Node001, QueryStage_Dynamic
+2019-06-06 21:18:02.891 Detail, Node001, QueryStage_Configuration
+2019-06-06 21:18:02.891 Detail, Node001, QueryStage_Complete
+2019-06-06 21:18:02.891 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2019-06-06 21:18:02.891 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2019-06-06 21:18:02.891 Detail, Node001, Notification: NodeQueriesComplete
+2019-06-06 21:18:02.912 Detail, Node002, Query Stage Complete (CacheLoad)
+2019-06-06 21:18:02.912 Detail, Node002, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2019-06-06 21:18:02.912 Detail, Node002, QueryStage_Associations
+2019-06-06 21:18:02.912 Info, Node002, Number of association groups reported for node 2 is 3.
+2019-06-06 21:18:02.912 Info, Node002, Get MultiChannelAssociation for group 1 of node 2
+2019-06-06 21:18:02.912 Detail, Node002, Queuing (Send) MultiChannelAssociationCmd_Get (Node=2): 0x01, 0x0a, 0x00, 0x13, 0x02, 0x03, 0x8e, 0x02, 0x01, 0x25, 0x10, 0x5f
+2019-06-06 21:18:02.912 Detail, Node002, Queuing (Query) Query Stage Complete (Associations)
+2019-06-06 21:18:02.912 Detail, 
+2019-06-06 21:18:02.912 Info, Node002, Sending (Send) message (Callback ID=0x10, Expected Reply=0x04) - MultiChannelAssociationCmd_Get (Node=2): 0x01, 0x0a, 0x00, 0x13, 0x02, 0x03, 0x8e, 0x02, 0x01, 0x25, 0x10, 0x5f
+2019-06-06 21:18:02.924 Detail, Node002,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2019-06-06 21:18:02.925 Detail, Node002,   ZW_SEND_DATA delivered to Z-Wave stack
+2019-06-06 21:18:07.066 Detail, Node002,   Received: 0x01, 0x07, 0x00, 0x13, 0x10, 0x01, 0x01, 0x9f, 0x64
+2019-06-06 21:18:07.066 Detail, Node002,   ZW_SEND_DATA Request with callback ID 0x10 received (expected 0x10)
+2019-06-06 21:18:07.067 Info, Node002, WARNING: ZW_SEND_DATA failed. No ACK received - device may be asleep.
+2019-06-06 21:18:07.067 Warning, Node002, WARNING: Device is not a sleeping node.
+2019-06-06 21:18:07.067 Error, Node002, ERROR: node presumed dead
+2019-06-06 21:18:07.067 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2019-06-06 21:18:07.067 Warning, CheckCompletedNodeQueries all=0, deadFound=1 sleepingOnly=1
+2019-06-06 21:18:07.067 Info,          Node query processing complete except for sleeping nodes.
+2019-06-06 21:18:07.067 Detail, Node001,   Expected callbackId was received
+2019-06-06 21:18:07.067 Detail, contrlr, Notification: AwakeNodesQueried
+2019-06-06 21:18:07.085 Detail, Node002, Notification: Notification - Node Dead
+2019-06-06 21:18:12.912 Error, Node002, ERROR: Dropping command because node is presumed dead
+2019-06-06 21:18:12.912 Detail, Node002, Removing current message
+2019-06-06 21:18:12.912 Detail, Node002, Notification: Notification - TimeOut
+2019-06-06 21:18:12.938 Detail, Node002, Query Stage Complete (Associations)
+2019-06-06 21:18:12.938 Detail, Node002, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=0
