@@ -9,4 +9,4 @@
     service: mqtt.publish
     data:
       topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
-      payload: "Ocelotte config build failed!"
+      payload: "Ocelotte configuration build failed!"
