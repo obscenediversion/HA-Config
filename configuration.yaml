@@ -38,6 +38,14 @@ toon:
  
 hacs:
   token: !secret github_token_hacs
+  
+speedtestdotnet:
+  scan_interval:
+    minutes: 30
+  monitored_conditions:
+    - ping
+    - download
+    - upload
 
 group: !include_dir_merge_list group/
 automation: !include_dir_merge_list automation/
