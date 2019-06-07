@@ -1,0 +1,25 @@
+- alias: Doorbell Front Door LR notify
+  trigger:
+  - entity_id: binary_sensor.front_door
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.living_room_speaker
+      message: There is someone at the door.
+    service: tts.google_say
+- alias: Doorbell Front Door BR notify
+  trigger:
+  - entity_id: binary_sensor.front_door
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.bathroom_speaker
+      message: There is someone at the door.
+    service: tts.google_say
+    
