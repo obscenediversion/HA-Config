@@ -3,3 +3,8 @@
     longitude: 4.5246975
     radius: 20
     icon: mdi:glass-cocktail
+  - name: De 2 Wezen
+    latitude: 52.2277867
+    longitude: 4.5244654
+    radius: 5
+    icon: mdi:beer
