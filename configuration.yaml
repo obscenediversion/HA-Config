@@ -56,3 +56,4 @@ switch: !include_dir_merge_list switch/
 tts: !include_dir_merge_list tts/
 lock:  !include_dir_merge_list lock/
 remote: !include_dir_merge_list remote/
+binary_sensor: !include_dir_merge_list binary_sensor/
