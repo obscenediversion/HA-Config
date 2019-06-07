@@ -1,0 +1,8 @@
+  - platform: rpi_gpio
+    invert_logic: true
+    bouncetime: 20
+    scan_interval: 10
+    pull_mode: UP
+    ports:
+      20: Front Door
+      21: Stairwell Door
