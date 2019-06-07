@@ -8,3 +8,13 @@
     longitude: 4.5244654
     radius: 7
     icon: mdi:beer
+  - name: Nog Eigen Wijzer
+    latitude: 52.22773
+    longitude: 4.52458
+    radius: 7
+    icon: mdi:food  
+  - name: Op Eigen Wijze
+    latitude: 52.22807
+    longitude: 4.52439
+    radius: 7
+    icon: mdi:food
