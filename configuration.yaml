@@ -49,7 +49,7 @@ speedtestdotnet:
 
 group: !include_dir_merge_list group/
 automation: !include_dir_merge_list automation/
-script: !include_dir_merge_list script/
+script: !include_dir_merge_named script/
 zone:  !include_dir_merge_list zone/
 sensor: !include_dir_merge_list sensor/
 switch: !include_dir_merge_list switch/

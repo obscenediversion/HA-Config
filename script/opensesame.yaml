@@ -1,4 +1,4 @@
-- alias: Open both doors
+  alias: Open both doors
   sequence:
   - data:
       entity_id: switch.relay_one
