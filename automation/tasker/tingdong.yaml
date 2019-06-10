@@ -1,0 +1,10 @@
+- alias: tingdongtest
+  trigger:
+  - payload: tingdong
+    platform: mqtt
+    topic: tasker
+  condition: []
+  action:
+  - data:
+      entity_id: light.kistkast
+    service: light.toggle
