@@ -1,0 +1,13 @@
+- alias: Sleep Balcony Door
+  trigger:
+  - payload: sleep_rijk
+    platform: mqtt
+    topic: tasker
+  condition:
+  - condition: state
+    entity_id: binary_sensor.shenzhen_neo_electronics_co_ltd_door_window_detector_sensor_3
+    state: 'on'
+  action:
+  - service: tts.google_say
+       entity_id: media_player.living_room_speaker
+       message: The balcony door is still open.
