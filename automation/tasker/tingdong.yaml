@@ -1,8 +1,8 @@
-- alias: tingdongtest
+- alias: Open Both Doors MQTT.
   trigger:
-  - payload: tingdong
+  - payload: openbothdoors
     platform: mqtt
     topic: tasker
   condition: []
   action:
-    service: script.1560164258071
+    service: script.openbothdoors
