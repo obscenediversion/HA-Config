@@ -1,0 +1,12 @@
+- alias: Open both doors.
+  sequence:
+  - data:
+      entity_id: switch.relay_one
+    service: switch.toggle
+  - delay: 00:00:05
+  - data:
+      entity_id: switch.relay_one
+    service: switch.toggle
+  - delay: 00:00:04
+  - data: {}
+    service: lock.nuki_unlatch
