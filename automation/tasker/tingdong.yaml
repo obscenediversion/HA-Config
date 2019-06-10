@@ -5,6 +5,4 @@
     topic: tasker
   condition: []
   action:
-  - data:
-      entity_id: light.kistkast
-    service: light.toggle
+    service: script.1560164258071
