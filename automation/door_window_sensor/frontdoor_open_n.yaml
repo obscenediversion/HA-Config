@@ -1,0 +1,13 @@
+- alias: Front Door Hallway Light On
+  trigger:
+  - entity_id: binary_sensor.front_door
+    platform: state
+    to: 'on'
+  condition:
+  - after: '19:00'
+    before: '6:00'
+    condition: time
+  action:
+  - data:
+      entity_id: switch.shenzhen_neo_electronics_co_ltd_wall_switch_2_channels_switch
+    service: switch.turn_on
