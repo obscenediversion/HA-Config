@@ -1,6 +1,6 @@
 - alias: Doorbell Front Door LR notify
   trigger:
-  - entity_id: binary_sensor.front_door
+  - entity_id: binary_sensor.doorbell_front
     from: 'off'
     platform: state
     to: 'on'
@@ -12,7 +12,7 @@
     service: tts.google_say
 - alias: Doorbell Front Door BR notify
   trigger:
-  - entity_id: binary_sensor.front_door
+  - entity_id: binary_sensor.doorbell_front
     from: 'off'
     platform: state
     to: 'on'
