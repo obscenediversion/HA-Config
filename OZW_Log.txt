@@ -670,3 +670,465 @@
 2019-06-12 11:41:30.808 Info,          Node query processing complete except for sleeping nodes.
 2019-06-12 11:41:30.808 Detail, Node007, Notification: NodeQueriesComplete
 2019-06-12 11:41:30.820 Detail, contrlr, Notification: AwakeNodesQueried
+2019-06-12 12:01:05.022 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x00, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x60
+2019-06-12 12:01:05.023 Detail, 
+2019-06-12 12:01:05.032 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-06-12 12:01:05.036 Detail, Node006, Initial read of value
+2019-06-12 12:01:05.036 Detail, Node006, Initial read of value
+2019-06-12 12:01:05.036 Detail, Node006, Initial read of value
+2019-06-12 12:01:05.036 Detail, Node006, Initial read of value
+2019-06-12 12:01:05.036 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:05.078 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:05.097 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:05.117 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:05.136 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x06, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x35
+2019-06-12 12:01:05.136 Detail, 
+2019-06-12 12:01:05.137 Info, Node006, Received SensorBinary report: Sensor:10 State=On
+2019-06-12 12:01:05.137 Detail, Node006, Initial read of value
+2019-06-12 12:01:05.137 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:08.251 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x00, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x17, 0x00, 0x61
+2019-06-12 12:01:08.251 Detail, 
+2019-06-12 12:01:08.251 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:23, status=255
+2019-06-12 12:01:08.251 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:01:08.251 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:01:08.251 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:01:08.251 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:01:08.251 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:01:08.251 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:01:08.251 Detail, Node006, Refreshed Value: old value=22, new value=23, type=byte
+2019-06-12 12:01:08.252 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:01:08.252 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:08.283 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:08.301 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:08.319 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:01:08.336 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x06, 0x04, 0x30, 0x03, 0x00, 0x0a, 0xca
+2019-06-12 12:01:08.337 Detail, 
+2019-06-12 12:01:08.337 Info, Node006, Received SensorBinary report: Sensor:10 State=Off
+2019-06-12 12:01:08.337 Detail, Node006, Refreshed Value: old value=true, new value=false, type=bool
+2019-06-12 12:01:08.337 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:01:08.337 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:08:16.364 Detail, Queuing (Controller) Add Device
+2019-06-12 12:08:16.364 Info, Add Device
+2019-06-12 12:08:16.364 Detail, contrlr, Queuing (Command) ControllerCommand_AddDevice: 0x01, 0x05, 0x00, 0x4a, 0xc1, 0x1a, 0x6b
+2019-06-12 12:08:16.364 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:08:16.391 Detail, 
+2019-06-12 12:08:16.391 Info, contrlr, Sending (Command) message (Callback ID=0x1a, Expected Reply=0x4a) - ControllerCommand_AddDevice: 0x01, 0x05, 0x00, 0x4a, 0xc1, 0x1a, 0x6b
+2019-06-12 12:08:16.394 Detail, contrlr,   Received: 0x01, 0x07, 0x00, 0x4a, 0x1a, 0x01, 0x00, 0x00, 0xa9
+2019-06-12 12:08:16.394 Detail, 
+2019-06-12 12:08:16.394 Info, contrlr, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:08:16.394 Info, contrlr, ADD_NODE_STATUS_LEARN_READY
+2019-06-12 12:08:16.394 Detail, Node001,   Expected callbackId was received
+2019-06-12 12:08:16.394 Detail, Node001,   Expected reply was received
+2019-06-12 12:08:16.395 Detail, Node001,   Message transaction complete
+2019-06-12 12:08:16.395 Detail, 
+2019-06-12 12:08:16.395 Detail, contrlr, Removing current message
+2019-06-12 12:08:16.395 Detail, Notification: ControllerCommand - Waiting
+2019-06-12 12:08:16.409 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:09:40.816 Detail, Node001, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:40.816 Detail, Node004, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:40.816 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:09:40.816 Detail, Node005, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:40.816 Detail, Node006, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:40.816 Detail, Node007, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:40.816 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:09:41.980 Info, Cancel Add Node
+2019-06-12 12:09:41.980 Detail, contrlr, Queuing (Command) Add Node Stop: 0x01, 0x04, 0x00, 0x4a, 0x05, 0xb4
+2019-06-12 12:09:41.980 Detail, Notification: ControllerCommand - Canceled
+2019-06-12 12:09:42.000 Detail, 
+2019-06-12 12:09:42.001 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x4a) - Add Node Stop: 0x01, 0x04, 0x00, 0x4a, 0x05, 0xb4
+2019-06-12 12:09:42.090 Detail, contrlr,   Received: 0x01, 0x07, 0x00, 0x4a, 0x1a, 0x06, 0x00, 0x00, 0xae
+2019-06-12 12:09:42.090 Detail, 
+2019-06-12 12:09:42.090 Info, contrlr, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:09:42.091 Info, contrlr, ADD_NODE_STATUS_DONE
+2019-06-12 12:09:42.091 Detail, Node006,   Expected reply was received
+2019-06-12 12:09:42.091 Detail, Node006,   Message transaction complete
+2019-06-12 12:09:42.091 Detail, 
+2019-06-12 12:09:42.091 Detail, contrlr, Removing current message
+2019-06-12 12:09:42.091 Detail, Notification: ControllerCommand - Completed
+2019-06-12 12:09:42.107 Info, Requesting Neighbor Update for node 1
+2019-06-12 12:09:42.107 Detail, Node001, Queuing (Command) ControllerCommand_RequestNodeNeighborUpdate (Node=1): 0x01, 0x05, 0x00, 0x48, 0x01, 0x1b, 0xa8
+2019-06-12 12:09:42.108 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:09:42.117 Detail, 
+2019-06-12 12:09:42.118 Info, Node001, Sending (Command) message (Callback ID=0x1b, Expected Reply=0x48) - ControllerCommand_RequestNodeNeighborUpdate (Node=1): 0x01, 0x05, 0x00, 0x48, 0x01, 0x1b, 0xa8
+2019-06-12 12:09:42.154 Detail, Node001,   Received: 0x01, 0x05, 0x00, 0x48, 0x1b, 0x21, 0x88
+2019-06-12 12:09:42.154 Detail, 
+2019-06-12 12:09:42.154 Info, Node001, REQUEST_NEIGHBOR_UPDATE_STARTED
+2019-06-12 12:09:42.155 Detail, Node033,   Expected callbackId was received
+2019-06-12 12:09:42.155 Detail, Node033,   Expected reply was received
+2019-06-12 12:09:42.155 Detail, Node033,   Message transaction complete
+2019-06-12 12:09:42.155 Detail, 
+2019-06-12 12:09:42.155 Detail, Node001, Removing current message
+2019-06-12 12:09:42.155 Detail, Notification: ControllerCommand - InProgress
+2019-06-12 12:09:42.171 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:09:43.599 Detail, Queuing (Controller) Add Device
+2019-06-12 12:09:43.599 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:09:50.432 Detail,   Received: 0x01, 0x05, 0x00, 0x48, 0x1b, 0x23, 0x8a
+2019-06-12 12:09:50.432 Detail, 
+2019-06-12 12:09:50.432 Warning, WARNING: REQUEST_NEIGHBOR_UPDATE_FAILED
+2019-06-12 12:09:50.432 Detail, Notification: ControllerCommand - Failed
+2019-06-12 12:09:50.441 Info, Requesting Neighbor Update for node 4
+2019-06-12 12:09:50.441 Detail, 
+2019-06-12 12:09:50.441 Detail, Node004, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:50.441 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:09:50.453 Detail, Notification: ControllerCommand - Sleeping
+2019-06-12 12:09:50.465 Info, Requesting Neighbor Update for node 5
+2019-06-12 12:09:50.465 Detail, 
+2019-06-12 12:09:50.465 Detail, Node005, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:50.465 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:09:50.479 Detail, Notification: ControllerCommand - Sleeping
+2019-06-12 12:09:50.492 Info, Requesting Neighbor Update for node 6
+2019-06-12 12:09:50.492 Detail, 
+2019-06-12 12:09:50.492 Detail, Node006, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:09:50.492 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:09:50.506 Detail, Notification: ControllerCommand - Sleeping
+2019-06-12 12:09:50.522 Info, Requesting Neighbor Update for node 7
+2019-06-12 12:09:50.522 Detail, Node007, Queuing (Command) ControllerCommand_RequestNodeNeighborUpdate (Node=7): 0x01, 0x05, 0x00, 0x48, 0x07, 0x1f, 0xaa
+2019-06-12 12:09:50.522 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:09:50.533 Detail, 
+2019-06-12 12:09:50.533 Info, Node007, Sending (Command) message (Callback ID=0x1f, Expected Reply=0x48) - ControllerCommand_RequestNodeNeighborUpdate (Node=7): 0x01, 0x05, 0x00, 0x48, 0x07, 0x1f, 0xaa
+2019-06-12 12:09:50.567 Detail, Node007,   Received: 0x01, 0x05, 0x00, 0x48, 0x1f, 0x21, 0x8c
+2019-06-12 12:09:50.568 Detail, 
+2019-06-12 12:09:50.568 Info, Node007, REQUEST_NEIGHBOR_UPDATE_STARTED
+2019-06-12 12:09:50.568 Detail, Node033,   Expected callbackId was received
+2019-06-12 12:09:50.568 Detail, Node033,   Expected reply was received
+2019-06-12 12:09:50.568 Detail, Node033,   Message transaction complete
+2019-06-12 12:09:50.568 Detail, 
+2019-06-12 12:09:50.568 Detail, Node007, Removing current message
+2019-06-12 12:09:50.568 Detail, Notification: ControllerCommand - InProgress
+2019-06-12 12:09:50.583 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:09:50.722 Detail,   Received: 0x01, 0x05, 0x00, 0x48, 0x1f, 0x23, 0x8e
+2019-06-12 12:09:50.722 Detail, 
+2019-06-12 12:09:50.722 Warning, WARNING: REQUEST_NEIGHBOR_UPDATE_FAILED
+2019-06-12 12:09:50.722 Detail, Notification: ControllerCommand - Failed
+2019-06-12 12:09:50.742 Info, Add Device
+2019-06-12 12:09:50.742 Detail, contrlr, Queuing (Command) ControllerCommand_AddDevice: 0x01, 0x05, 0x00, 0x4a, 0xc1, 0x20, 0x51
+2019-06-12 12:09:50.742 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:09:50.769 Detail, 
+2019-06-12 12:09:50.769 Info, contrlr, Sending (Command) message (Callback ID=0x20, Expected Reply=0x4a) - ControllerCommand_AddDevice: 0x01, 0x05, 0x00, 0x4a, 0xc1, 0x20, 0x51
+2019-06-12 12:09:50.772 Detail, contrlr,   Received: 0x01, 0x07, 0x00, 0x4a, 0x20, 0x01, 0x00, 0x00, 0x93
+2019-06-12 12:09:50.773 Detail, 
+2019-06-12 12:09:50.773 Info, contrlr, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:09:50.773 Info, contrlr, ADD_NODE_STATUS_LEARN_READY
+2019-06-12 12:09:50.773 Detail, Node001,   Expected callbackId was received
+2019-06-12 12:09:50.773 Detail, Node001,   Expected reply was received
+2019-06-12 12:09:50.773 Detail, Node001,   Message transaction complete
+2019-06-12 12:09:50.773 Detail, 
+2019-06-12 12:09:50.773 Detail, contrlr, Removing current message
+2019-06-12 12:09:50.773 Detail, Notification: ControllerCommand - Waiting
+2019-06-12 12:09:50.815 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:10:27.222 Detail, Queuing (Controller) Add Device
+2019-06-12 12:10:27.222 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:10:42.983 Detail, Node005,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x05, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x73
+2019-06-12 12:10:42.983 Detail, 
+2019-06-12 12:10:42.983 Info, Node005, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-06-12 12:10:42.983 Detail, Node005, Initial read of value
+2019-06-12 12:10:42.983 Detail, Node005, Initial read of value
+2019-06-12 12:10:42.983 Detail, Node005, Initial read of value
+2019-06-12 12:10:42.983 Detail, Node005, Initial read of value
+2019-06-12 12:10:42.983 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.014 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.035 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.056 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.237 Detail, Node005,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x05, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x73
+2019-06-12 12:10:43.237 Detail, 
+2019-06-12 12:10:43.237 Info, Node005, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-06-12 12:10:43.237 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:10:43.237 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:10:43.237 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:10:43.237 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:10:43.237 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:10:43.237 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:10:43.237 Detail, Node005, Refreshed Value: old value=22, new value=22, type=byte
+2019-06-12 12:10:43.237 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:10:43.237 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.306 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.347 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.394 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.414 Detail, Node005,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x05, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x26
+2019-06-12 12:10:43.414 Detail, 
+2019-06-12 12:10:43.414 Info, Node005, Received SensorBinary report: Sensor:10 State=On
+2019-06-12 12:10:43.414 Detail, Node005, Initial read of value
+2019-06-12 12:10:43.414 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:10:43.841 Detail, Node005,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x05, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x26
+2019-06-12 12:10:43.842 Detail, 
+2019-06-12 12:10:43.842 Info, Node005, Received SensorBinary report: Sensor:10 State=On
+2019-06-12 12:10:43.842 Detail, Node005, Refreshed Value: old value=true, new value=true, type=bool
+2019-06-12 12:10:43.842 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:10:43.842 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:11:45.939 Detail,   Received: 0x01, 0x07, 0x00, 0x4a, 0x20, 0x02, 0x00, 0x00, 0x90
+2019-06-12 12:11:45.940 Detail, 
+2019-06-12 12:11:45.940 Info, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:11:45.940 Info, ADD_NODE_STATUS_NODE_FOUND
+2019-06-12 12:11:45.940 Detail, Notification: ControllerCommand - InProgress
+2019-06-12 12:11:46.124 Detail,   Received: 0x01, 0x16, 0x00, 0x4a, 0x20, 0x03, 0x08, 0x0f, 0x04, 0x10, 0x01, 0x5e, 0x86, 0x72, 0x5a, 0x73, 0x27, 0x25, 0x85, 0x8e, 0x59, 0x70, 0xef, 0xde
+2019-06-12 12:11:46.125 Detail, 
+2019-06-12 12:11:46.125 Info, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:11:46.125 Info, ADD_NODE_STATUS_ADDING_SLAVE
+2019-06-12 12:11:46.125 Info, Adding node ID 8 - Secure
+2019-06-12 12:11:46.125 Detail, Notification: ControllerCommand - InProgress
+2019-06-12 12:11:46.520 Detail,   Received: 0x01, 0x07, 0x00, 0x4a, 0x20, 0x05, 0x08, 0x00, 0x9f
+2019-06-12 12:11:46.520 Detail, 
+2019-06-12 12:11:46.520 Info, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:11:46.520 Info, ADD_NODE_STATUS_PROTOCOL_DONE
+2019-06-12 12:11:46.520 Detail, contrlr, Queuing (Command) Add Node Stop: 0x01, 0x04, 0x00, 0x4a, 0x05, 0xb4
+2019-06-12 12:11:46.520 Detail, Notification: ControllerCommand - InProgress
+2019-06-12 12:11:46.534 Detail, 
+2019-06-12 12:11:46.534 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x4a) - Add Node Stop: 0x01, 0x04, 0x00, 0x4a, 0x05, 0xb4
+2019-06-12 12:11:46.586 Detail, contrlr,   Received: 0x01, 0x07, 0x00, 0x4a, 0x20, 0x06, 0x08, 0x00, 0x9c
+2019-06-12 12:11:46.586 Detail, 
+2019-06-12 12:11:46.586 Info, contrlr, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:11:46.586 Info, contrlr, ADD_NODE_STATUS_DONE
+2019-06-12 12:11:46.618 Info, Node008,   Basic device class    (0x04) - Routing Slave
+2019-06-12 12:11:46.618 Info, Node008,   Generic device Class  (0x10) - Binary Switch
+2019-06-12 12:11:46.618 Info, Node008,   Specific device class (0x01) - Binary Power Switch
+2019-06-12 12:11:46.618 Info, Node008,     COMMAND_CLASS_BASIC will be mapped to COMMAND_CLASS_SWITCH_BINARY
+2019-06-12 12:11:46.618 Info, Node008,   Mandatory Command Classes for Node 8:
+2019-06-12 12:11:46.618 Info, Node008,     COMMAND_CLASS_BASIC
+2019-06-12 12:11:46.618 Info, Node008,     COMMAND_CLASS_SWITCH_BINARY
+2019-06-12 12:11:46.618 Info, Node008,     COMMAND_CLASS_SWITCH_ALL
+2019-06-12 12:11:46.618 Info, Node008,   Mandatory Command Classes controlled by Node 8:
+2019-06-12 12:11:46.618 Info, Node008,     None
+2019-06-12 12:11:46.618 Info, Node008,   Optional command classes for node 8:
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_ZWAVEPLUS_INFO
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_VERSION
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_MANUFACTURER_SPECIFIC
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_DEVICE_RESET_LOCALLY
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_POWERLEVEL
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_SWITCH_ALL (Existing)
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_SWITCH_BINARY (Existing)
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_ASSOCIATION
+2019-06-12 12:11:46.619 Info, Node008,     COMMAND_CLASS_MULTI_CHANNEL_ASSOCIATION
+2019-06-12 12:11:46.620 Info, Node008,   CommandClass 0x59 - NOT REQUIRED
+2019-06-12 12:11:46.620 Info, Node008,     COMMAND_CLASS_CONFIGURATION
+2019-06-12 12:11:46.620 Info, Node008,   Optional command classes controlled by node 8:
+2019-06-12 12:11:46.620 Info, Node008,     None
+2019-06-12 12:11:46.620 Detail, Node008, AdvanceQueries queryPending=0 queryRetries=0 queryStage=None live=1
+2019-06-12 12:11:46.620 Detail, Node008, QueryStage_ProtocolInfo
+2019-06-12 12:11:46.620 Detail, Node008, Queuing (Query) Get Node Protocol Info (Node=8): 0x01, 0x04, 0x00, 0x41, 0x08, 0xb2
+2019-06-12 12:11:46.620 Detail, Node008, Queuing (Query) Query Stage Complete (ProtocolInfo)
+2019-06-12 12:11:46.620 Info, Node008, Initializing Node. New Node: true (true)
+2019-06-12 12:11:46.620 Detail, Node006,   Expected reply was received
+2019-06-12 12:11:46.620 Detail, Node006,   Message transaction complete
+2019-06-12 12:11:46.620 Detail, 
+2019-06-12 12:11:46.620 Detail, contrlr, Removing current message
+2019-06-12 12:11:46.620 Detail, Node008, Notification: NodeAdded
+2019-06-12 12:11:46.640 Detail, Node008, Notification: NodeProtocolInfo
+2019-06-12 12:11:46.655 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:46.748 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:46.840 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:46.891 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:46.942 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:46.992 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.045 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.095 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.144 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.193 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.242 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.294 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.338 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.383 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.428 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.473 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.524 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.578 Detail, Node008, Notification: ValueAdded
+2019-06-12 12:11:47.639 Detail, Notification: ControllerCommand - Completed
+2019-06-12 12:11:47.646 Info, Add Device
+2019-06-12 12:11:47.646 Detail, contrlr, Queuing (Command) ControllerCommand_AddDevice: 0x01, 0x05, 0x00, 0x4a, 0xc1, 0x21, 0x50
+2019-06-12 12:11:47.646 Detail, Notification: ControllerCommand - Starting
+2019-06-12 12:11:47.653 Detail, 
+2019-06-12 12:11:47.653 Info, contrlr, Sending (Command) message (Callback ID=0x21, Expected Reply=0x4a) - ControllerCommand_AddDevice: 0x01, 0x05, 0x00, 0x4a, 0xc1, 0x21, 0x50
+2019-06-12 12:11:47.656 Detail, contrlr,   Received: 0x01, 0x07, 0x00, 0x4a, 0x21, 0x01, 0x00, 0x00, 0x92
+2019-06-12 12:11:47.656 Detail, 
+2019-06-12 12:11:47.656 Info, contrlr, FUNC_ID_ZW_ADD_NODE_TO_NETWORK:
+2019-06-12 12:11:47.656 Info, contrlr, ADD_NODE_STATUS_LEARN_READY
+2019-06-12 12:11:47.656 Detail, Node001,   Expected callbackId was received
+2019-06-12 12:11:47.656 Detail, Node001,   Expected reply was received
+2019-06-12 12:11:47.657 Detail, Node001,   Message transaction complete
+2019-06-12 12:11:47.657 Detail, 
+2019-06-12 12:11:47.657 Detail, contrlr, Removing current message
+2019-06-12 12:11:47.657 Detail, Notification: ControllerCommand - Waiting
+2019-06-12 12:11:47.664 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:15:19.470 Detail, Node008, AdvanceQueries queryPending=1 queryRetries=0 queryStage=ProtocolInfo live=1
+2019-06-12 12:26:39.559 Detail, Node008, AdvanceQueries queryPending=1 queryRetries=0 queryStage=ProtocolInfo live=1
+2019-06-12 12:32:18.939 Detail, Node008, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:32:18.940 Detail, Node008, Queuing (Controller) Delete All Return Routes
+2019-06-12 12:32:18.940 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:33:05.884 Detail, Node001, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:33:05.884 Detail, Node004, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:33:05.884 Detail, Node005, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:33:05.884 Detail, Node006, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:33:05.885 Detail, Node007, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:33:05.885 Detail, Node008, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 12:33:05.885 Info, WriteNextMsg Controller nothing to do
+2019-06-12 12:33:48.536 Detail, Node005,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x05, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x17, 0x00, 0x72
+2019-06-12 12:33:48.536 Detail, 
+2019-06-12 12:33:48.536 Info, Node005, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:23, status=255
+2019-06-12 12:33:48.536 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:33:48.536 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.537 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:33:48.537 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.537 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:33:48.537 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.537 Detail, Node005, Refreshed Value: old value=22, new value=23, type=byte
+2019-06-12 12:33:48.537 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.537 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.561 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.579 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.595 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.714 Detail, Node005,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x05, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x17, 0x00, 0x72
+2019-06-12 12:33:48.714 Detail, 
+2019-06-12 12:33:48.714 Info, Node005, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:23, status=255
+2019-06-12 12:33:48.714 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:33:48.714 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.714 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:33:48.714 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.714 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:33:48.714 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.715 Detail, Node005, Refreshed Value: old value=23, new value=23, type=byte
+2019-06-12 12:33:48.715 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:48.715 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.833 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.877 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:48.951 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:49.000 Detail, Node005,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x05, 0x04, 0x30, 0x03, 0x00, 0x0a, 0xd9
+2019-06-12 12:33:49.001 Detail, 
+2019-06-12 12:33:49.001 Info, Node005, Received SensorBinary report: Sensor:10 State=Off
+2019-06-12 12:33:49.001 Detail, Node005, Refreshed Value: old value=true, new value=false, type=bool
+2019-06-12 12:33:49.001 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:49.001 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:33:49.287 Detail, Node005,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x05, 0x04, 0x30, 0x03, 0x00, 0x0a, 0xd9
+2019-06-12 12:33:49.287 Detail, 
+2019-06-12 12:33:49.287 Info, Node005, Received SensorBinary report: Sensor:10 State=Off
+2019-06-12 12:33:49.287 Detail, Node005, Refreshed Value: old value=false, new value=false, type=bool
+2019-06-12 12:33:49.287 Detail, Node005, Changes to this value are not verified
+2019-06-12 12:33:49.287 Detail, Node005, Notification: ValueChanged
+2019-06-12 12:34:29.646 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x70
+2019-06-12 12:34:29.646 Detail, 
+2019-06-12 12:34:29.646 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-06-12 12:34:29.647 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:29.647 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:29.647 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:29.647 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:29.647 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:29.647 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:29.647 Detail, Node006, Refreshed Value: old value=23, new value=22, type=byte
+2019-06-12 12:34:29.647 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:29.647 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:29.677 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:29.693 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:29.709 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:30.015 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x06, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x25
+2019-06-12 12:34:30.015 Detail, 
+2019-06-12 12:34:30.015 Info, Node006, Received SensorBinary report: Sensor:10 State=On
+2019-06-12 12:34:30.015 Detail, Node006, Refreshed Value: old value=false, new value=true, type=bool
+2019-06-12 12:34:30.015 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:30.015 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:32.945 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x17, 0x00, 0x71
+2019-06-12 12:34:32.946 Detail, 
+2019-06-12 12:34:32.946 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:23, status=255
+2019-06-12 12:34:32.946 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:32.946 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:32.946 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:32.946 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:32.946 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:32.946 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:32.946 Detail, Node006, Refreshed Value: old value=22, new value=23, type=byte
+2019-06-12 12:34:32.946 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:32.946 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:32.973 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:32.989 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:33.008 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:33.306 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x06, 0x04, 0x30, 0x03, 0x00, 0x0a, 0xda
+2019-06-12 12:34:33.306 Detail, 
+2019-06-12 12:34:33.306 Info, Node006, Received SensorBinary report: Sensor:10 State=Off
+2019-06-12 12:34:33.306 Detail, Node006, Refreshed Value: old value=true, new value=false, type=bool
+2019-06-12 12:34:33.306 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:33.306 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:37.066 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x70
+2019-06-12 12:34:37.066 Detail, 
+2019-06-12 12:34:37.066 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-06-12 12:34:37.066 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:37.066 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:37.067 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:37.067 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:37.067 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:37.067 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:37.067 Detail, Node006, Refreshed Value: old value=23, new value=22, type=byte
+2019-06-12 12:34:37.067 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:37.067 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:37.085 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:37.102 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:37.118 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:37.427 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x06, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x25
+2019-06-12 12:34:37.428 Detail, 
+2019-06-12 12:34:37.428 Info, Node006, Received SensorBinary report: Sensor:10 State=On
+2019-06-12 12:34:37.428 Detail, Node006, Refreshed Value: old value=false, new value=true, type=bool
+2019-06-12 12:34:37.428 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:37.428 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:40.348 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x17, 0x00, 0x71
+2019-06-12 12:34:40.348 Detail, 
+2019-06-12 12:34:40.348 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:23, status=255
+2019-06-12 12:34:40.348 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:40.348 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:40.348 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:40.348 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:40.348 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:34:40.348 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:40.348 Detail, Node006, Refreshed Value: old value=22, new value=23, type=byte
+2019-06-12 12:34:40.348 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:40.349 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:40.379 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:40.395 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:40.410 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:34:40.708 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x06, 0x04, 0x30, 0x03, 0x00, 0x0a, 0xda
+2019-06-12 12:34:40.708 Detail, 
+2019-06-12 12:34:40.708 Info, Node006, Received SensorBinary report: Sensor:10 State=Off
+2019-06-12 12:34:40.708 Detail, Node006, Refreshed Value: old value=true, new value=false, type=bool
+2019-06-12 12:34:40.708 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:34:40.709 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:06.112 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x70
+2019-06-12 12:35:06.113 Detail, 
+2019-06-12 12:35:06.113 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-06-12 12:35:06.113 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:35:06.113 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:06.113 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:35:06.113 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:06.113 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:35:06.113 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:06.113 Detail, Node006, Refreshed Value: old value=23, new value=22, type=byte
+2019-06-12 12:35:06.113 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:06.113 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:06.141 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:06.160 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:06.179 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:06.475 Detail, Node006,   Received: 0x01, 0x0a, 0x00, 0x04, 0x10, 0x06, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x25
+2019-06-12 12:35:06.475 Detail, 
+2019-06-12 12:35:06.475 Info, Node006, Received SensorBinary report: Sensor:10 State=On
+2019-06-12 12:35:06.475 Detail, Node006, Refreshed Value: old value=false, new value=true, type=bool
+2019-06-12 12:35:06.475 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:06.476 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:09.316 Detail, Node006,   Received: 0x01, 0x0f, 0x00, 0x04, 0x10, 0x06, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x17, 0x00, 0x71
+2019-06-12 12:35:09.317 Detail, 
+2019-06-12 12:35:09.317 Info, Node006, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:23, status=255
+2019-06-12 12:35:09.317 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:35:09.317 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:09.317 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:35:09.317 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:09.317 Detail, Node006, Refreshed Value: old value=0, new value=0, type=byte
+2019-06-12 12:35:09.317 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:09.317 Detail, Node006, Refreshed Value: old value=22, new value=23, type=byte
+2019-06-12 12:35:09.317 Detail, Node006, Changes to this value are not verified
+2019-06-12 12:35:09.317 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:09.348 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:09.369 Detail, Node006, Notification: ValueChanged
+2019-06-12 12:35:09.390 Detail, Node006, Notification: ValueChanged
+2019-06-12 15:36:40.193 Detail, Node004,   Received: 0x01, 0x08, 0x00, 0x04, 0x10, 0x04, 0x02, 0x84, 0x07, 0x66
+2019-06-12 15:36:40.193 Detail, 
+2019-06-12 15:36:40.193 Info, Node004, Received Wakeup Notification from node 4
+2019-06-12 15:36:40.193 Info, Node004,   Node 4 has been marked as awake
+2019-06-12 15:36:40.193 Detail, Node004, Queuing (Controller) Delete All Return Routes
+2019-06-12 15:36:40.193 Detail, Node004, Queuing (Controller) Assign Return Route
+2019-06-12 15:36:40.193 Detail, Node004, Queuing (Query) Query Stage Complete (CacheLoad)
+2019-06-12 15:36:40.193 Detail, Node004, Queuing (Controller) Request Node Neighbor Update
+2019-06-12 15:36:40.194 Detail, Node004, Notification: Notification - Node Awake
+2019-06-12 15:36:40.213 Info, WriteNextMsg Controller nothing to do
