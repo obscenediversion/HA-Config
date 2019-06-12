@@ -10,3 +10,6 @@
     data:
       topic: "homeassistant/tts/android_rijk_galaxy_s9_plus_tts/tts"
       payload: "Ocelotte configuration build passed!"
+    service: notify.mobile_app_rijk_galaxy_s9_plus
+    data:
+      message: "Ocelotte cobfiguration build passed!"
