@@ -1,0 +1,10 @@
+opendsdoor:
+  alias: Open Stairwell Door.
+  sequence:
+  - data:
+      entity_id: switch.relay_one
+    service: switch.toggle
+  - delay: 00:00:05
+  - data:
+      entity_id: switch.relay_one
+    service: switch.toggle
