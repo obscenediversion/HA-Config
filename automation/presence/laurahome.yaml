@@ -1,0 +1,12 @@
+- alias: Laura Home.
+  trigger:
+  - entity_id: person.laura
+    platform: state
+    to: 'Home'
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.living_room_speaker
+      message: Laura is home.
+    service: tts.google_say
+    
