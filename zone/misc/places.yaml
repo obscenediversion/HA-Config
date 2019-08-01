@@ -18,3 +18,8 @@
     longitude: 4.52439
     radius: 7
     icon: mdi:food
+  - name: Parkzicht
+    latitude: 52.22616
+    longitude: 4.52163
+    radius: 4
+    icon: mdi:food
