@@ -1,0 +1,9 @@
+customize:
+  - person.rijk:
+    entity_picture: "/local/rijk.png"
+  - person.laura:
+    entity_picture: "/local/laura.png"
+  - person.dusk:
+    entity_picture: "/local/dusk.png"
+  - person.tablet:
+    entity_picture: "/local/tablet.png"
