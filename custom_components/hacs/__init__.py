@@ -148,8 +148,8 @@ async def hacs_startup(hacs):
                 await async_remove_entry(hacs.hass, hacs.configuration.config_entry)
         return False
     else:
-        if os.path.exists(f"{hacs.system.config_path}/.storage/hacs"):
-            os.remove(f"{hacs.system.config_path}/.storage/hacs")
+        if os.path.exists("{hacs.system.config_path}/.storage/hacs"):
+            os.remove("{hacs.system.config_path}/.storage/hacs")
 
     # Restore from storefiles
     if not await hacs.data.restore():
@@ -199,14 +199,14 @@ async def hacs_startup(hacs):
 def check_version(hacs):
     """Check if the version is valid."""
     with open(
-        f"{hacs.system.config_path}/custom_components/hacs/manifest.json", "r"
+        "{hacs.system.config_path}/custom_components/hacs/manifest.json", "r"
     ) as read:
         manifest = json.loads(read.read())
 
     # Check if HA is the required version.
     if LooseVersion(hacs.system.ha_version) < LooseVersion(manifest["homeassistant"]):
         hacs.logger.critical(
-            f"You need HA version {manifest['homeassistant']} or newer to use this integration."
+            "You need HA version {manifest['homeassistant']} or newer to use this integration."
         )
         return False
     return True
@@ -228,7 +228,7 @@ async def load_hacs_repository(hacs):
         AIOGitHubRatelimit,
         AIOGitHubAuthentication,
     ) as exception:
-        hacs.logger.critical(f"[{exception}] - Could not load HACS!")
+        hacs.logger.critical("[{exception}] - Could not load HACS!")
         return False
     return True
 
