@@ -2,4 +2,4 @@ openfrontdoor:
   alias: Open Front Door.
   sequence:
   - data: {}
-    service: lock.nuki_unlatch
+    service: lock.open
