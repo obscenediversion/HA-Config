@@ -41,6 +41,16 @@ logger:
 toon:
   client_id: !secret toon_id
   client_secret: !secret toon_secret
+  
+# Spotify
+
+media_player:
+  - platform: spotify
+    client_id: !secret spotify_clientid
+    client_secret: !secret spotify_clientsecret
+    aliases:
+#        abc123def456: 'Living Room'
+#        9183abas000: 'Bed Room'
  
 # HACS
  
