@@ -2,7 +2,7 @@
  "nodes": {
   "node-red": {
    "name": "node-red",
-   "version": "0.20.5",
+   "version": "0.20.7",
    "local": false,
    "nodes": {
     "inject": {
@@ -381,7 +381,7 @@
   },
   "node-red-contrib-actionflows": {
    "name": "node-red-contrib-actionflows",
-   "version": "2.0.1",
+   "version": "2.0.3",
    "local": false,
    "nodes": {
     "actionfilters": {
@@ -400,7 +400,7 @@
   },
   "node-red-contrib-bigtimer": {
    "name": "node-red-contrib-bigtimer",
-   "version": "2.1.9",
+   "version": "2.2.3",
    "local": false,
    "nodes": {
     "bigtimer": {
@@ -417,7 +417,7 @@
   },
   "node-red-contrib-cast": {
    "name": "node-red-contrib-cast",
-   "version": "0.2.6",
+   "version": "0.2.8",
    "local": false,
    "nodes": {
     "cast-to-client": {
@@ -451,7 +451,7 @@
   },
   "node-red-contrib-home-assistant-websocket": {
    "name": "node-red-contrib-home-assistant-websocket",
-   "version": "0.12.3",
+   "version": "0.14.1",
    "local": false,
    "nodes": {
     "server": {
@@ -605,7 +605,7 @@
   },
   "node-red-contrib-influxdb": {
    "name": "node-red-contrib-influxdb",
-   "version": "0.2.2",
+   "version": "0.3.0",
    "local": false,
    "nodes": {
     "influxdb": {
@@ -944,7 +944,7 @@
   },
   "node-red-dashboard": {
    "name": "node-red-dashboard",
-   "version": "2.15.4",
+   "version": "2.15.5",
    "local": false,
    "nodes": {
     "ui_base": {
@@ -1178,7 +1178,7 @@
   },
   "node-red-node-email": {
    "name": "node-red-node-email",
-   "version": "1.6.0",
+   "version": "1.6.2",
    "local": false,
    "nodes": {
     "email": {
@@ -1213,7 +1213,7 @@
   },
   "node-red-node-geofence": {
    "name": "node-red-node-geofence",
-   "version": "0.1.1",
+   "version": "0.1.2",
    "local": false,
    "nodes": {
     "geofence": {
@@ -1264,7 +1264,7 @@
   },
   "node-red-node-random": {
    "name": "node-red-node-random",
-   "version": "0.1.2",
+   "version": "0.1.3",
    "local": false,
    "nodes": {
     "random": {
@@ -1298,7 +1298,7 @@
   },
   "node-red-node-sentiment": {
    "name": "node-red-node-sentiment",
-   "version": "0.1.3",
+   "version": "0.1.4",
    "local": false,
    "nodes": {
     "sentiment": {
@@ -1386,7 +1386,7 @@
   },
   "node-red-node-twitter": {
    "name": "node-red-node-twitter",
-   "version": "1.1.4",
+   "version": "1.1.5",
    "local": false,
    "nodes": {
     "twitter": {
@@ -1402,20 +1402,581 @@
      "file": "/opt/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-node-google": {
+   "name": "node-red-node-google",
+   "version": "0.1.4",
+   "local": true,
+   "nodes": {
+    "google plus": {
+     "name": "google plus",
+     "types": [
+      "google plus"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-google",
+     "file": "/config/node-red/node_modules/node-red-node-google/plus.js"
+    },
+    "google places": {
+     "name": "google places",
+     "types": [
+      "google places"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-google",
+     "file": "/config/node-red/node_modules/node-red-node-google/places.js"
+    },
+    "google-api-config": {
+     "name": "google-api-config",
+     "types": [
+      "google-credentials",
+      "google-api-config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-google",
+     "file": "/config/node-red/node_modules/node-red-node-google/google.js"
+    },
+    "google geocoding": {
+     "name": "google geocoding",
+     "types": [
+      "google geocoding"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-google",
+     "file": "/config/node-red/node_modules/node-red-node-google/geocoding.js"
+    },
+    "google directions": {
+     "name": "google directions",
+     "types": [
+      "google directions"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-google",
+     "file": "/config/node-red/node_modules/node-red-node-google/directions.js"
+    },
+    "google calendar": {
+     "name": "google calendar",
+     "types": [
+      "google calendar in",
+      "google calendar",
+      "google calendar out"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-google",
+     "file": "/config/node-red/node_modules/node-red-node-google/calendar.js"
+    }
+   }
+  },
+  "node-red-contrib-google-action": {
+   "name": "node-red-contrib-google-action",
+   "version": "1.2.1",
+   "local": true,
+   "nodes": {
+    "google-action": {
+     "name": "google-action",
+     "types": [
+      "google-action in",
+      "google-action response"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-action",
+     "file": "/config/node-red/node_modules/node-red-contrib-google-action/google-action.js"
+    }
+   }
+  },
+  "node-red-contrib-google-home-notifier-offline": {
+   "name": "node-red-contrib-google-home-notifier-offline",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "google-notifier": {
+     "name": "google-notifier",
+     "types": [
+      "googlehome-config-node-offline",
+      "googlehome-notifier-offline"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-home-notifier-offline",
+     "file": "/config/node-red/node_modules/node-red-contrib-google-home-notifier-offline/node-red-google-home-notifier-offline.js"
+    }
+   }
+  },
+  "node-red-contrib-google-home-notify": {
+   "name": "node-red-contrib-google-home-notify",
+   "version": "0.0.7",
+   "local": true,
+   "nodes": {
+    "google-notify": {
+     "name": "google-notify",
+     "types": [
+      "googlehome-config-node",
+      "googlehome-notify"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-home-notify",
+     "file": "/config/node-red/node_modules/node-red-contrib-google-home-notify/node-red-google-home-notify.js"
+    }
+   }
+  },
+  "node-red-contrib-google-home-notify-volume-adjustable": {
+   "name": "node-red-contrib-google-home-notify-volume-adjustable",
+   "version": "0.0.10",
+   "local": true,
+   "nodes": {
+    "google-notify": {
+     "name": "google-notify",
+     "types": [
+      "googlehome-config-node",
+      "googlehome-notify"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-home-notify-volume-adjustable",
+     "file": "/config/node-red/node_modules/node-red-contrib-google-home-notify-volume-adjustable/node-red-google-home-notify.js"
+    }
+   }
+  },
+  "node-red-contrib-google-tts": {
+   "name": "node-red-contrib-google-tts",
+   "version": "1.1.1",
+   "local": true,
+   "nodes": {
+    "google-tts": {
+     "name": "google-tts",
+     "types": [
+      "google-tts"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-tts",
+     "file": "/config/node-red/node_modules/node-red-contrib-google-tts/google-tts.js"
+    }
+   }
+  },
+  "node-red-contrib-googlehome": {
+   "name": "node-red-contrib-googlehome",
+   "version": "0.0.4",
+   "local": true,
+   "nodes": {
+    "googlehome": {
+     "name": "googlehome",
+     "types": [
+      "google-home-conf",
+      "google-home",
+      "google-home-response"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-googlehome",
+     "file": "/config/node-red/node_modules/node-red-contrib-googlehome/googlehome.js"
+    }
+   }
+  },
+  "node-red-contrib-nuki": {
+   "name": "node-red-contrib-nuki",
+   "version": "0.3.0",
+   "local": true,
+   "nodes": {
+    "nuki": {
+     "name": "nuki",
+     "types": [
+      "nuki-lock-control",
+      "nuki-bridge-control",
+      "nuki-bridge"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-nuki",
+     "file": "/config/node-red/node_modules/node-red-contrib-nuki/nuki/nuki.js"
+    }
+   }
+  },
+  "node-red-contrib-harmony": {
+   "name": "node-red-contrib-harmony",
+   "version": "1.2.6",
+   "local": true,
+   "nodes": {
+    "harmony": {
+     "name": "harmony",
+     "types": [
+      "H command",
+      "H activity",
+      "H observe"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-harmony",
+     "file": "/config/node-red/node_modules/node-red-contrib-harmony/harmony/harmony.js"
+    },
+    "harmony-server": {
+     "name": "harmony-server",
+     "types": [
+      "harmony-server"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-harmony",
+     "file": "/config/node-red/node_modules/node-red-contrib-harmony/harmony/harmony-server.js"
+    }
+   }
+  },
+  "node-red-contrib-harmony-websocket": {
+   "name": "node-red-contrib-harmony-websocket",
+   "version": "1.1.0",
+   "local": true,
+   "nodes": {
+    "harmonyws": {
+     "name": "harmonyws",
+     "types": [
+      "HWS command",
+      "HWS activity",
+      "HWS observe"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-harmony-websocket",
+     "file": "/config/node-red/node_modules/node-red-contrib-harmony-websocket/harmony/harmony.js"
+    },
+    "harmonyws-server": {
+     "name": "harmonyws-server",
+     "types": [
+      "harmonyws-server"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-harmony-websocket",
+     "file": "/config/node-red/node_modules/node-red-contrib-harmony-websocket/harmony/harmony-server.js"
+    }
+   }
+  },
+  "node-red-contrib-hue": {
+   "name": "node-red-contrib-hue",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "hue": {
+     "name": "hue",
+     "types": [
+      "Hue Pull",
+      "Hue Set"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-hue",
+     "file": "/config/node-red/node_modules/node-red-contrib-hue/hue.js"
+    }
+   }
+  },
+  "node-red-contrib-huemagic": {
+   "name": "node-red-contrib-huemagic",
+   "version": "1.9.0",
+   "local": true,
+   "nodes": {
+    "hue-bridge": {
+     "name": "hue-bridge",
+     "types": [
+      "hue-bridge"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-bridge-config.js"
+    },
+    "hue-bridge-node": {
+     "name": "hue-bridge-node",
+     "types": [
+      "hue-bridge-node"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-bridge.js"
+    },
+    "hue-light": {
+     "name": "hue-light",
+     "types": [
+      "hue-light"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-light.js"
+    },
+    "hue-group": {
+     "name": "hue-group",
+     "types": [
+      "hue-group"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-group.js"
+    },
+    "hue-scene": {
+     "name": "hue-scene",
+     "types": [
+      "hue-scene"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-scene.js"
+    },
+    "hue-tap": {
+     "name": "hue-tap",
+     "types": [
+      "hue-tap"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-tap.js"
+    },
+    "hue-switch": {
+     "name": "hue-switch",
+     "types": [
+      "hue-switch"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-switch.js"
+    },
+    "hue-motion": {
+     "name": "hue-motion",
+     "types": [
+      "hue-motion"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-motion.js"
+    },
+    "hue-temperature": {
+     "name": "hue-temperature",
+     "types": [
+      "hue-temperature"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-temperature.js"
+    },
+    "hue-brightness": {
+     "name": "hue-brightness",
+     "types": [
+      "hue-brightness"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-huemagic",
+     "file": "/config/node-red/node_modules/node-red-contrib-huemagic/red/hue-brightness.js"
+    }
+   }
+  },
+  "node-red-contrib-light": {
+   "name": "node-red-contrib-light",
+   "version": "0.6.0",
+   "local": true,
+   "nodes": {
+    "AnamicoLights": {
+     "name": "AnamicoLights",
+     "types": [
+      "AnamicoLights"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light",
+     "file": "/config/node-red/node_modules/node-red-contrib-light/light/lights.js"
+    },
+    "AnamicoLightUpdates": {
+     "name": "AnamicoLightUpdates",
+     "types": [
+      "AnamicoLightUpdates"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light",
+     "file": "/config/node-red/node_modules/node-red-contrib-light/light/updates.js"
+    },
+    "AnamicoLightChanged": {
+     "name": "AnamicoLightChanged",
+     "types": [
+      "AnamicoLightChanged"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light",
+     "file": "/config/node-red/node_modules/node-red-contrib-light/light/lightChanged.js"
+    },
+    "AnamicoChangeLight": {
+     "name": "AnamicoChangeLight",
+     "types": [
+      "AnamicoChangeLight"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light",
+     "file": "/config/node-red/node_modules/node-red-contrib-light/light/changeLight.js"
+    }
+   }
+  },
+  "node-red-contrib-light-scheduler": {
+   "name": "node-red-contrib-light-scheduler",
+   "version": "0.0.15",
+   "local": true,
+   "nodes": {
+    "light-scheduler": {
+     "name": "light-scheduler",
+     "types": [
+      "light-scheduler"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light-scheduler",
+     "file": "/config/node-red/node_modules/node-red-contrib-light-scheduler/light-scheduler.js"
+    },
+    "light-scheduler-filter": {
+     "name": "light-scheduler-filter",
+     "types": [
+      "light-scheduler-filter"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light-scheduler",
+     "file": "/config/node-red/node_modules/node-red-contrib-light-scheduler/light-scheduler-filter.js"
+    },
+    "light-scheduler-settings": {
+     "name": "light-scheduler-settings",
+     "types": [
+      "light-scheduler-settings"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-light-scheduler",
+     "file": "/config/node-red/node_modules/node-red-contrib-light-scheduler/light-scheduler-settings.js"
+    }
+   }
+  },
+  "node-red-contrib-nighttime": {
+   "name": "node-red-contrib-nighttime",
+   "version": "1.0.35",
+   "local": true,
+   "nodes": {
+    "nighttime": {
+     "name": "nighttime",
+     "types": [
+      "nighttime"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-nighttime",
+     "file": "/config/node-red/node_modules/node-red-contrib-nighttime/nighttime.js"
+    }
+   }
+  },
+  "node-red-contrib-telegrambot": {
+   "name": "node-red-contrib-telegrambot",
+   "version": "5.5.1",
+   "local": true,
+   "nodes": {
+    "telegrambot": {
+     "name": "telegrambot",
+     "types": [
+      "telegram bot",
+      "telegram receiver",
+      "telegram command",
+      "telegram event",
+      "telegram sender",
+      "telegram reply"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot",
+     "file": "/config/node-red/node_modules/node-red-contrib-telegrambot/telegrambot/99-telegrambot.js"
+    }
+   }
+  },
+  "node-red-contrib-telegrambot-home": {
+   "name": "node-red-contrib-telegrambot-home",
+   "version": "0.5.2",
+   "local": true,
+   "nodes": {
+    "bot": {
+     "name": "bot",
+     "types": [
+      "telegrambot-config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot-home",
+     "file": "/config/node-red/node_modules/node-red-contrib-telegrambot-home/nodes/bot-config/bot-config.js"
+    },
+    "command": {
+     "name": "command",
+     "types": [
+      "telegrambot-command"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot-home",
+     "file": "/config/node-red/node_modules/node-red-contrib-telegrambot-home/nodes/command/command.js"
+    },
+    "switch": {
+     "name": "switch",
+     "types": [
+      "telegrambot-switch"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot-home",
+     "file": "/config/node-red/node_modules/node-red-contrib-telegrambot-home/nodes/switch/switch.js"
+    },
+    "notify": {
+     "name": "notify",
+     "types": [
+      "telegrambot-notify"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot-home",
+     "file": "/config/node-red/node_modules/node-red-contrib-telegrambot-home/nodes/notify/notify.js"
+    },
+    "payload": {
+     "name": "payload",
+     "types": [
+      "telegrambot-payload"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot-home",
+     "file": "/config/node-red/node_modules/node-red-contrib-telegrambot-home/nodes/payload/payload.js"
+    }
+   }
   }
  },
  "users": {
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
      "view-node-show-label": true,
      "view-show-tips": true,
      "view-snap-grid": true,
      "view-show-grid": true
     }
-   }
+   },
+   "menu-menu-item-palette": false
   }
  }
 }
