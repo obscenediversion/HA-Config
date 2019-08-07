@@ -656,3 +656,24 @@
 2019-08-07 21:59:11.087 Info, Node005, Received SensorBinary report: Sensor:10 State=Off
 2019-08-07 21:59:11.087 Detail, Node005, Initial read of value
 2019-08-07 21:59:11.087 Detail, Node005, Notification: ValueChanged
+2019-08-07 22:03:32.495 Detail, Node005,   Received: 0x01, 0x0f, 0x00, 0x04, 0x00, 0x05, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x06, 0x16, 0x00, 0x63
+2019-08-07 22:03:32.495 Detail, 
+2019-08-07 22:03:32.495 Info, Node005, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Access Control event:22, status=255
+2019-08-07 22:03:32.495 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-08-07 22:03:32.495 Detail, Node005, Changes to this value are not verified
+2019-08-07 22:03:32.495 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-08-07 22:03:32.495 Detail, Node005, Changes to this value are not verified
+2019-08-07 22:03:32.495 Detail, Node005, Refreshed Value: old value=0, new value=0, type=byte
+2019-08-07 22:03:32.495 Detail, Node005, Changes to this value are not verified
+2019-08-07 22:03:32.496 Detail, Node005, Refreshed Value: old value=23, new value=22, type=byte
+2019-08-07 22:03:32.496 Detail, Node005, Changes to this value are not verified
+2019-08-07 22:03:32.496 Detail, Node005, Notification: ValueChanged
+2019-08-07 22:03:32.523 Detail, Node005, Notification: ValueChanged
+2019-08-07 22:03:32.542 Detail, Node005, Notification: ValueChanged
+2019-08-07 22:03:32.560 Detail, Node005, Notification: ValueChanged
+2019-08-07 22:03:32.577 Detail, Node005,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x05, 0x04, 0x30, 0x03, 0xff, 0x0a, 0x36
+2019-08-07 22:03:32.577 Detail, 
+2019-08-07 22:03:32.577 Info, Node005, Received SensorBinary report: Sensor:10 State=On
+2019-08-07 22:03:32.577 Detail, Node005, Refreshed Value: old value=false, new value=true, type=bool
+2019-08-07 22:03:32.577 Detail, Node005, Changes to this value are not verified
+2019-08-07 22:03:32.578 Detail, Node005, Notification: ValueChanged
