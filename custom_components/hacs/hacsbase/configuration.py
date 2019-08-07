@@ -1,15 +1,12 @@
 """HACS Configuration."""
 
 
-class Configuration:
-    """Configuration class."""
+class HacsConfiguration:
+    """HacsConfiguration class."""
 
     def __init__(self, config):
         """Initialize."""
         self.config = config
-        self.frontend_mode = "Grid"
-        self.config_type = None
-        self.config_entry = None
 
     @property
     def token(self):
