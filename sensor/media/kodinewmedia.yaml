@@ -1,0 +1,6 @@
+- platform: kodi_recently_added
+  username: !secret kodi_user
+  host: 192.168.2.14
+  password: !secret kodi_password
+  port: 8080
+  tcp_port:	9090
