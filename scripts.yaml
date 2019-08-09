@@ -1,0 +1,7 @@
+'1565354640151':
+  alias: testgh
+  sequence:
+  - service: mqtt.publish
+      data_template:
+        topic: '/ghome/tvonrtl'
+        payload: 'ON'
