@@ -4,6 +4,12 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "node-red-contrib-bigsplitter": "~1.0.3",
+        "node-red-contrib-bool-gate": "~1.0.2",
+        "node-red-contrib-boolean-logic": "0.0.3",
+        "node-red-contrib-boolean-logic-ultimate": "~1.0.7",
+        "node-red-contrib-dsm": "~0.14.1",
+        "node-red-contrib-fullsplitter": "0.0.2",
         "node-red-contrib-google-action": "~1.2.1",
         "node-red-contrib-google-home-notifier-offline": "0.0.5",
         "node-red-contrib-google-home-notify": "0.0.7",
@@ -14,12 +20,19 @@
         "node-red-contrib-harmony-websocket": "~1.1.0",
         "node-red-contrib-hue": "0.0.5",
         "node-red-contrib-huemagic": "~1.9.0",
+        "node-red-contrib-hyperion": "~0.1.2",
+        "node-red-contrib-kodi": "~0.2.8",
         "node-red-contrib-light": "~0.6.0",
         "node-red-contrib-light-scheduler": "0.0.15",
         "node-red-contrib-nighttime": "~1.0.35",
         "node-red-contrib-nuki": "~0.3.0",
+        "node-red-contrib-splitter": "0.0.16",
         "node-red-contrib-telegrambot": "~5.5.1",
         "node-red-contrib-telegrambot-home": "~0.5.2",
-        "node-red-node-google": "~0.1.4"
+        "node-red-contrib-wait-paths": "~0.3.2",
+        "node-red-contrib-youtube": "0.0.10",
+        "node-red-contrib-ytdl": "0.0.3",
+        "node-red-node-google": "~0.1.4",
+        "node-red-node-youtube": "0.0.5"
     }
 }

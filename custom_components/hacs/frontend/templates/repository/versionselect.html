@@ -1,9 +1,5 @@
 {% set tags = repository.releases.published_tags | sort(True) %}
-{% if repository.information.uid == "172733314" %}
-{% set tags = tags + ["next"] %}
-{% else %}
 {% set tags = tags + [repository.information.default_branch] %}
-{% endif %}
 
 
 {% if repository.status.selected_tag %}

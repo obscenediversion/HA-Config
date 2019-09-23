@@ -451,7 +451,7 @@
   },
   "node-red-contrib-home-assistant-websocket": {
    "name": "node-red-contrib-home-assistant-websocket",
-   "version": "0.14.1",
+   "version": "0.14.2",
    "local": false,
    "nodes": {
     "server": {
@@ -588,7 +588,7 @@
   },
   "node-red-contrib-http-request": {
    "name": "node-red-contrib-http-request",
-   "version": "0.1.13",
+   "version": "0.1.14",
    "local": false,
    "nodes": {
     "www-request": {
@@ -1962,6 +1962,303 @@
      "file": "/config/node-red/node_modules/node-red-contrib-telegrambot-home/nodes/payload/payload.js"
     }
    }
+  },
+  "node-red-contrib-dsm": {
+   "name": "node-red-contrib-dsm",
+   "version": "0.14.1",
+   "local": true,
+   "nodes": {
+    "dsm": {
+     "name": "dsm",
+     "types": [
+      "dsm"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-dsm",
+     "file": "/config/node-red/node_modules/node-red-contrib-dsm/dsm.js"
+    }
+   }
+  },
+  "node-red-contrib-kodi": {
+   "name": "node-red-contrib-kodi",
+   "version": "0.2.8",
+   "local": true,
+   "nodes": {
+    "kodi": {
+     "name": "kodi",
+     "types": [
+      "kodi-controller",
+      "kodi-out",
+      "kodi-in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-kodi",
+     "file": "/config/node-red/node_modules/node-red-contrib-kodi/kodi.js"
+    }
+   }
+  },
+  "node-red-contrib-hyperion": {
+   "name": "node-red-contrib-hyperion",
+   "version": "0.1.2",
+   "local": true,
+   "nodes": {
+    "hyperion": {
+     "name": "hyperion",
+     "types": [
+      "Hyperion-Server-Conf",
+      "Hyperion"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-hyperion",
+     "file": "/config/node-red/node_modules/node-red-contrib-hyperion/hyperion.js"
+    }
+   }
+  },
+  "node-red-node-youtube": {
+   "name": "node-red-node-youtube",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "YouTube-API": {
+     "name": "YouTube-API",
+     "types": [
+      "google-config",
+      "YouTube PlayListItems",
+      "YouTube PlayLists",
+      "YouTube Channels"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-youtube",
+     "file": "/config/node-red/node_modules/node-red-node-youtube/youtube.js"
+    }
+   }
+  },
+  "node-red-contrib-youtube": {
+   "name": "node-red-contrib-youtube",
+   "version": "0.0.10",
+   "local": true,
+   "nodes": {
+    "google-credentials-youtube": {
+     "name": "google-credentials-youtube",
+     "types": [
+      "google-credentials-youtube"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-youtube",
+     "file": "/config/node-red/node_modules/node-red-contrib-youtube/google-credentials-youtube.js"
+    },
+    "youtube-download": {
+     "name": "youtube-download",
+     "types": [
+      "youtube-download"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-youtube",
+     "file": "/config/node-red/node_modules/node-red-contrib-youtube/youtube-download.js"
+    },
+    "youtube-upload": {
+     "name": "youtube-upload",
+     "types": [
+      "youtube-upload"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-youtube",
+     "file": "/config/node-red/node_modules/node-red-contrib-youtube/youtube-upload.js"
+    }
+   }
+  },
+  "node-red-contrib-ytdl": {
+   "name": "node-red-contrib-ytdl",
+   "version": "0.0.3",
+   "local": true,
+   "nodes": {
+    "youtube-download": {
+     "name": "youtube-download",
+     "types": [
+      "youtube-ytdl"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-ytdl",
+     "file": "/config/node-red/node_modules/node-red-contrib-ytdl/youtube-ytdl.js"
+    }
+   }
+  },
+  "node-red-contrib-wait-paths": {
+   "name": "node-red-contrib-wait-paths",
+   "version": "0.3.2",
+   "local": true,
+   "nodes": {
+    "wait-paths": {
+     "name": "wait-paths",
+     "types": [
+      "wait-paths"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-wait-paths",
+     "file": "/config/node-red/node_modules/node-red-contrib-wait-paths/wait-paths.js"
+    }
+   }
+  },
+  "node-red-contrib-splitter": {
+   "name": "node-red-contrib-splitter",
+   "version": "0.0.16",
+   "local": true,
+   "nodes": {
+    "splitter": {
+     "name": "splitter",
+     "types": [
+      "splitter"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-splitter",
+     "file": "/config/node-red/node_modules/node-red-contrib-splitter/splitter.js"
+    }
+   }
+  },
+  "node-red-contrib-bigsplitter": {
+   "name": "node-red-contrib-bigsplitter",
+   "version": "1.0.3",
+   "local": true,
+   "nodes": {
+    "bigsplitter": {
+     "name": "bigsplitter",
+     "types": [
+      "bigsplitter"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-bigsplitter",
+     "file": "/config/node-red/node_modules/node-red-contrib-bigsplitter/bigsplitter.js"
+    }
+   }
+  },
+  "node-red-contrib-fullsplitter": {
+   "name": "node-red-contrib-fullsplitter",
+   "version": "0.0.2",
+   "local": true,
+   "nodes": {
+    "fullsplitter": {
+     "name": "fullsplitter",
+     "types": [
+      "fullsplitter"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-fullsplitter",
+     "file": "/config/node-red/node_modules/node-red-contrib-fullsplitter/fullsplitter.js"
+    }
+   }
+  },
+  "node-red-contrib-boolean-logic": {
+   "name": "node-red-contrib-boolean-logic",
+   "version": "0.0.3",
+   "local": true,
+   "nodes": {
+    "BooleanLogic": {
+     "name": "BooleanLogic",
+     "types": [
+      "BooleanLogic"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-boolean-logic",
+     "file": "/config/node-red/node_modules/node-red-contrib-boolean-logic/boolean-logic/BooleanLogic.js"
+    },
+    "Invert": {
+     "name": "Invert",
+     "types": [
+      "Invert"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-boolean-logic",
+     "file": "/config/node-red/node_modules/node-red-contrib-boolean-logic/boolean-logic/Invert.js"
+    },
+    "BDebug": {
+     "name": "BDebug",
+     "types": [
+      "BDebug"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-boolean-logic",
+     "file": "/config/node-red/node_modules/node-red-contrib-boolean-logic/boolean-logic/BDebug.js"
+    }
+   }
+  },
+  "node-red-contrib-boolean-logic-ultimate": {
+   "name": "node-red-contrib-boolean-logic-ultimate",
+   "version": "1.0.7",
+   "local": true,
+   "nodes": {
+    "BooleanLogicUltimate": {
+     "name": "BooleanLogicUltimate",
+     "types": [
+      "BooleanLogicUltimate"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-boolean-logic-ultimate",
+     "file": "/config/node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/BooleanLogicUltimate.js"
+    },
+    "InvertUltimate": {
+     "name": "InvertUltimate",
+     "types": [
+      "InvertUltimate"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-boolean-logic-ultimate",
+     "file": "/config/node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/InvertUltimate.js"
+    },
+    "FilterUltimate": {
+     "name": "FilterUltimate",
+     "types": [
+      "FilterUltimate"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-boolean-logic-ultimate",
+     "file": "/config/node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/FilterUltimate.js"
+    }
+   }
+  },
+  "node-red-contrib-bool-gate": {
+   "name": "node-red-contrib-bool-gate",
+   "version": "1.0.2",
+   "local": true,
+   "nodes": {
+    "and": {
+     "name": "and",
+     "types": [
+      "and-gate"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-bool-gate",
+     "file": "/config/node-red/node_modules/node-red-contrib-bool-gate/nodes/and.js"
+    },
+    "or": {
+     "name": "or",
+     "types": [
+      "or-gate"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-bool-gate",
+     "file": "/config/node-red/node_modules/node-red-contrib-bool-gate/nodes/or.js"
+    }
+   }
   }
  },
  "users": {
@@ -1976,7 +2273,8 @@
      "view-show-grid": true
     }
    },
-   "menu-menu-item-palette": true
+   "menu-menu-item-palette": true,
+   "menu-menu-item-sidebar": true
   }
  }
 }
