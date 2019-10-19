@@ -1,5 +1,5 @@
   - platform: afvalbeheer
-    wastecollector: Meerlanden        
+    wastecollector: Suez        
     resources:                 
       - restafval
       - gft
