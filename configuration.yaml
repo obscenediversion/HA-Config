@@ -17,15 +17,7 @@ homeassistant:
 default_config:
 frontend:
   themes: !include_dir_merge_named themes
-  extra_html_url:
-    - /local/custom_ui/state-card-floorplan.html
     
-panel_custom:
-  - name: floorplan
-    sidebar_title: Floorplan
-    sidebar_icon: mdi:home
-    url_path: floorplan
-    config: !include floorplan.yaml
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 http:
    base_url: !secret baseurl
@@ -35,29 +27,7 @@ http:
 # Discover some devices automatically
 discovery:
 sun:
-logger:
 
-# Toon
-toon:
-  client_id: !secret toon_id
-  client_secret: !secret toon_secret
-  
-# Spotify
-
-media_player:
-  - platform: spotify
-    client_id: !secret spotify_clientid
-    client_secret: !secret spotify_clientsecret
-
-#spotcast:
-# username: !secret spotify_username
-# password: !secret spotify_password
- 
-# HACS
- 
-hacs:
-  token: !secret github_token_hacs
-  
 speedtestdotnet:
   scan_interval:
     minutes: 30
